@@ -20,7 +20,7 @@ Debemos escribir:
 *Texto en negritas*
 #+END_SRC
 para el texto en negritas solo es necesario poner la frase o palabra
-entre asteriscos, sin espacios *negritas*
+entre asteriscos, sin espacios ~*negritas*~
 
 * Italicas
 Ejemplo:
@@ -29,7 +29,7 @@ Debemos escribir:
 #+BEGIN_SRC
 /Texto en italicas/
 #+END_SRC
-Igual que las negritas pero con diagonales /italicas/
+Igual que las negritas pero con diagonales ~/italicas/~
 
 * Subrayado
 Ejemplo:
@@ -38,7 +38,9 @@ Debemos escribir:
 #+BEGIN_SRC
 _texto en subayado_
 #+END_SRC
-Igual pero con guion bajo _subrayado_
+Igual pero con guion bajo ~_subrayado_~
+(NOTA: He notado que github no marca el subrayado, no importa, de todas maneras funciona en el pdf y en HTML)
+
 
 * Listas
 Ejemplo:
@@ -63,7 +65,7 @@ Debemos escribir:
 Para las listas con un simbolo de mas ~+~ o un simbolo de menos ~-~ es suficiente. Para las listas numeradas con un numero es suficiente ~1~, notarán que en lo gris solo puse ~1.~, no es necesario poner 1,2,3,etc, la computadora genera los numeros correctos de forma automatica, como puede verse en el ejemplo.
 
 * Citas
-Ejemplo:
+Ejemplo: \\
 Parrafo que se termina con una cita. ~cite:nombre-de-cita~
 
 Para citar basta con que escriban ~cite:nombre-de-cita~, el nombre que ustedes le quieran dar, y al final del documento, bajo referencias,escriben la bibliografia asi:
@@ -75,7 +77,7 @@ Yo me encargo de pasarla al formato adecuado.
 
 
 * Pies de Página
-Ejemplo:
+Ejemplo: \\
 Parrafo que termina en un pie de pagina ~[fn:numero-o-nombre]~
 
 Para los pies de página solo basta con que escriban
