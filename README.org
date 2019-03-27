@@ -3,4 +3,6 @@ Proyecto de manual de buenas prácticas en las TICs con perspectiva de género. 
 
 *Integrantes*: /Shunashi Jazmin Altamirano Pineda, Alberto Eleuterio Flores Guerrero, Xicohtencatl A. Zempoalteca Castañeda/
 [[manual.pdf][Manual en PDF]] 
-[[index.html][Manual en HTML]]
+
+
+[[https://albertoefg.github.io/manual-tic-perspectiva-genero/][Manual en HTML]]
