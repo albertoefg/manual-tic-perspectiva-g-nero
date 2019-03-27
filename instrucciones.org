@@ -1,40 +1,47 @@
-
-Titulos y subtitulos:
+* Titulos y subtitulos:
+Ejemplo:
 * Titulo
 ** Subtitulos
 *** Subtitulo del subtitulo
+Debemos escribir:
 #+BEGIN_SRC
 * Titulo
 ** Subtitulos
 *** Subtitulo del subtitulo
 #+END_SRC
-Para poner un titulo se pone un asterisco un espacio y el titulo, pueden poner me parece que hasta 6 asteriscos, pero me parece bien limitarlo a maximo 3.
+Para poner un titulo se pone un asterisco ~*~ un espacio y el titulo, pueden poner me parece que hasta 6 asteriscos, pero me parece bien limitarlo a maximo 3.
 
 
-Negritas: \\
-*Texto en negritas* \\
+* Negritas
+Ejemplo:
+*Texto en negritas* 
+Debemos escribir:
 #+BEGIN_SRC
-~*Texto en negritas*~
+*Texto en negritas*
 #+END_SRC
 para el texto en negritas solo es necesario poner la frase o palabra
 entre asteriscos, sin espacios *negritas*
 
-Italicas:
-/Texto en italicas/ \\
+* Italicas
+Ejemplo:
+/Texto en italicas/ 
+Debemos escribir:
 #+BEGIN_SRC
-~/Texto en italicas/~
+/Texto en italicas/
 #+END_SRC
 Igual que las negritas pero con diagonales /italicas/
 
-Subrayado:\\
-_texto en subayado_ \\
+* Subrayado
+Ejemplo:
+_texto en subayado_ 
+Debemos escribir:
 #+BEGIN_SRC
-~_texto en subayado_~
+_texto en subayado_
 #+END_SRC
 Igual pero con guion bajo _subrayado_
 
-
-Listas:
+* Listas
+Ejemplo:
 + elemento
 + elemento
 + elemento
@@ -42,6 +49,7 @@ Listas:
 1. elemento1
 1. elemento2
 1. elemento3
+Debemos escribir:
 #+BEGIN_SRC
 + elemento
 + elemento
@@ -52,22 +60,25 @@ Listas:
 1. elemento3
 #+END_SRC
 
-Para las listas con un simbolo de mas ~+~ o un simbolo de menos ~-~ es suficiente. Para las listas numeradas con un numero es suficiente ~1~, notarán que solo puse ~1~, no es necesario poner 1,2,3,etc, la computadora genera los numeros correctos de forma automatica.
+Para las listas con un simbolo de mas ~+~ o un simbolo de menos ~-~ es suficiente. Para las listas numeradas con un numero es suficiente ~1~, notarán que en lo gris solo puse ~1.~, no es necesario poner 1,2,3,etc, la computadora genera los numeros correctos de forma automatica, como puede verse en el ejemplo.
 
-Citas
-texto que esta comentando sobre la cita. ~cite:nombre-de-cita~
+* Citas
+Ejemplo:
+Parrafo que se termina con una cita. ~cite:nombre-de-cita~
 
 Para citar basta con que escriban ~cite:nombre-de-cita~, el nombre que ustedes le quieran dar, y al final del documento, bajo referencias,escriben la bibliografia asi:
 
 {cita:nombre-de-cita \\
-Titulo, autor, link, etc.} \\
+Titulo, autor, link, etc.}  
+
 Yo me encargo de pasarla al formato adecuado.
 
 
-Pies de Página: \\
-texto que termina en un pie de pagina ~[fn:numero-o-nombre]~
+* Pies de Página
+Ejemplo:
+Parrafo que termina en un pie de pagina ~[fn:numero-o-nombre]~
 
 Para los pies de página solo basta con que escriban
 ~[fn:numero-o-nombre]~ (fn es por footnote) como en las listas numeradas no necesitan numerar en orden, el programa genera el orden en automatico. Y al final del documento, bajo Footnotes, escriben así:
 
-[fn:numero-o-nombre] Esta es la nota al pie de pagina
+~[fn:numero-o-nombre]~ Esta es la nota al pie de pagina
