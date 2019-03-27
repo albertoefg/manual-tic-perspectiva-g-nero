@@ -1,4 +1,4 @@
-# Manual de buenas prácticas en las TICs con perspectiva de género
+* Manual de buenas prácticas en las TICs con perspectiva de género
 Proyecto de manual de buenas prácticas en las TICs con perspectiva de género. Elaborado por alumnos de INFOTEC.
 
 *Integrantes*: /Shunashi Jazmin Altamirano Pineda, Alberto Eleuterio Flores Guerrero, Xicohtencatl A. Zempoalteca Castañeda/
