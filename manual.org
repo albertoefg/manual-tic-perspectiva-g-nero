@@ -1,0 +1,140 @@
+#+LaTeX_CLASS_OPTIONS: [letterpaper, legal]
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+#+LATEX_HEADER: \usepackage{bibentry}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{helvet}
+#+LATEX_HEADER: \usepackage{lettrine}
+#+LATEX_HEADER: \usepackage{palatino}
+#+LATEX_HEADER: \usepackage{parskip, setspace}
+#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+#+LATEX_HEADER: \usepackage{sectsty}
+#+LATEX_HEADER: \usepackage{wrapfig, framed, caption}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{afterpage}
+#+LATEX_HEADER: \usepackage{xurl}
+
+#+LATEX_HEADER: \setlength{\parindent}{15pt}
+#+LATEX_HEADER: \spacing{1.25}
+#+LATEX_HEADER: \renewcommand{\familydefault}{\sfdefault}
+
+
+#+LATEX_HEADER: \definecolor{red}{RGB}{240,70,40}
+#+LATEX_HEADER: \definecolor{white1}{HTML}{FEFEFE}
+#+LATEX_HEADER: \definecolor{black1}{HTML}{212121}
+#+LATEX_HEADER: \definecolor{blue1}{HTML}{2A7FFF}
+#+LATEX_HEADER: \definecolor{bullet-color}{HTML}{004455}
+#+LATEX_HEADER: \definecolor{page-color}{HTML}{FF2F80}
+#+LATEX: \pagecolor{page-color}\afterpage{\nopagecolor}
+
+#+LATEX: \color{black1}
+
+#+LATEX:  \pagenumbering{gobble}
+#+LANGUAGE: es
+#+OPTIONS: ':t  toc:nil
+#+TITLE:      \fontsize{30pt}{30pt}\selectfont \color{white1}\textbf{MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO} \vspace{5cm}
+#+AUTHOR:     \Large \color{white1}\textbf{Shunashi Jazmin Altamirano Pineda \quad}
+#+AUTHOR:    \Large \color{white1}\textbf{Alberto Eleuterio Flores Guerrero} \\
+#+AUTHOR:     \Large \color{white1}\textbf{Xicohtencatl A. Zempoalteca Castañeda}\vspace{5cm}
+#+DATE:       \Large \textcolor{white1}{Fecha: 2019-03-26}
+
+
+#+LATEX: \newpage
+#+LATEX: \pagecolor{white1}
+#+LATEX:  \pagenumbering{roman}
+#+TOC: headlines 2 
+#+LATEX: \newpage
+#+LATEX:  \pagenumbering{arabic}
+
+* Introducción
+** Discriminación de Género en México
+** Discriminación de Género en las TIC
+
+http://www.ift.org.mx/sites/default/files/contenidogeneral/comunicacion-y-medios/estudiocualitativogenero-versionejecutiva.pdf
+
+** La Mentalidad de Meritocracia 
+Otra cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos de TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
+
+ La Real Academia Española define la palabra meritocracia como un /sistema de gobierno en que los puestos de responsabilidad se adjudican en función de los méritos personales./  cite:RAE-meritocracia
+
+En este sentido, podemos afirmar que meritocracia es un sistema de gobierno basado en la habilidad o el mérito, y no basado en la riqueza o posición social. En este contexto, mérito significaría un sistema donde la "inteligencia" y el "esfuerzo" son los que determinan el destino de las personas. [fn:1]
+
+Los defensores de la meritocracía suelen considerar que es bueno el poder acceder a puestos importantes, ya sea en el gobierno o en la industria privada. En México podemos encontrar lo dicho por Franco Hernández (2015), quien en su libro "/Mérito: construyendo el país de nosotros/" llega a afrimar que:
+
+#+BEGIN_QUOTE
+"/La sociedad del mérito es justa, y es quizás la única forma en nuestros tiempos, dentro de las reglas del capitalismo global, para producir una sociedad productiva y cultivada./" cite:PerezReward
+#+END_QUOTE
+
+En la misma forma el también mexicano Salvador Alva, presidente del Tecnológico de Monterrey, durante  la XVI México Cumbre de Negocios, afirmó que nuestro país necesita:
+
+#+BEGIN_QUOTE
+"/Apostarle al talento y a la meritocracia con una educación de calidad es la mejor inversión que puede hacer el país; -otros países- están buscando a los mejores talentos para poderlos incubar, darles la mejor educación y la oportunidad para que su innovación emprenda/" cite:mexico-alva
+#+END_QUOTE
+
+En el contexto del presente texto, quizas sea necesario señalar que los anteriormente citados, fueron egresados del Tecnológico de Monterrey, una de las escuelas más costosas de nuestro país. 
+
+Una de los áreas donde la meritocracia es vista de forma positiva es en el mundo de la tecnología, donde la tecnología es desarrollada por aquellas personas con los conocimientos y la inteligencia para crearla, y son estas las personas que tienen la voz más importante. 
+
+La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. 
+
+*** Problema de la meritocracia
+
+Esta mentalidad si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva mentalidad. El problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+
+Como ya vimos, las tecnologías de internet fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de internet se dio de manera prominente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA.
+
+El problema es que internet es una tecnología global, utilizada por personas de todos los países, culturas, sexos, religiones y colores, pero internet se desarrollo en un país donde la tecnología era de fácil acceso, esto trajo como consecuencia que las prioridades de internet fueron de acuerdo a las ideas de los que la desarrollaron.
+
+Internet no fue pensada por o para personas pobres, donde las conexiones de internet son difíciles e intermitentes, por esto, internet cada día soporta paginas o servicios más "pesados", con uso de tecnologías que requieren un gran ancho de banda, dejando a las personas de zonas remotas y de difícil acceso con rezago tecnológico.
+
+Tampoco fue pensada por o para personas viviendo bajo dictaduras, o sistemas opresivos, por eso hoy en día existe el "Gran Firewall de China", con el cual China logra imponer censura a sus usuarios, restringiendo la manera en que las empresas operan y el contenido que le pueden mostrar a los ciudadanos de este país. Así como la negación total del servicio lo cual han hecho Corea del Norte, Nepal, Egipto y Libia.
+
+Mucho menos fue pensada para proteger a periodistas, activistas y delatadores, por esto, hoy en día es posible rastrear y espiar a los usuarios de internet, por eso los ISP pueden conocer todo sitio que visitan sus clientes. Por eso empresas como Facebook o Google han amasado fortunas de miles de millones de dolares con el rastreo y uso de la información privada de las personas. Donde los ISP pueden inyectar publicidad a sus usuarios, aún en contra de su voluntad, algo que es común hoy en día con el uso de las redes móviles.
+
+La seguridad y la privacidad nunca fueron prioridades, si bien en los años recientes se ha visto un crecido interés por implementar seguridad y privacidad en internet, siendo que empresas como Mozilla, Google y fundaciones como la Electronic Frontier Foundation (EFF) han avocado y creado herramientas para facilitar el uso de TLS y HTTPS. Y ahora buscan también encriptar el DNS. 
+
+Es claro que la manera en que fue construido internet permite que se implementen estas tecnologías, sin cambiar todo el sistema, por esto se consideraba al principio de este documento, que si bien los principios de Derechos Humanos no deben cambiar la jerarquía de internet, si pueden usarse como un complemento para mejorar y dar paso a nuevas tecnologías que protejan a todos los usuarios y especialmente a las minorías.
+
+Es por eso que considero que el modelo de Internet y la meritocracia cuentan con una falla grave, la cual no es en el aspecto técnico, sino en el humano, al ser desarrollada no se consideraron como importantes estos aspectos, los cuales hoy en día nos afectan a todos. 
+
+Si bien la mayoría de los usuarios de internet no consideran problemático el que sea muy simple conocer su ubicación, el que las empresas puedan minar su información privada, o incluso, casos tan graves como el de Facebook que se encuentra bajo examen por el Congreso de los Estados Unidos por haber colaborado con Cambridge Analytica en la manipulación de las elecciones presidenciales de dicho país. La realidad es que estos problemas no dejan de ser importantes y graves. Problemas que si bien pueden resolverse, quizás sería mejor que se hubiese diseñado un sistema donde sería, sino imposible, si complicado el poder tener este tipo de practicas. 
+
+
+
+https://ciperchile.cl/2013/06/07/cinco-argumentos-contra-la-meritocracia/
+https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy
+https://postmeritocracy.org/sp/
+https://www.contributor-covenant.org/
+https://opensource.com/open-organization/16/6/presenting-framework-meritocracy
+
+* Instrumentos
+** Diagnostico de Situación
+** Plan de Acción 
+* Areas
+** Código de Conducta
+test
+https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
+test
+** Programa de Equidad de Genero
+** Monitoreo de Genero
+** Medidas de Acción Positiva
+** Consejo de Equidad de Genero
+** Mujeres en la Toma de Decisiones
+** Prevención de Acoso y Hostigamiento
+**  Prevención de Violencia de Género 
+** Mentorías
+** Políticas de Uso de Lenguaje
+** Inclusión Colectiva
+** Alfabetización Digital
+
+* Referencias
+bibliographystyle:unsrt
+bibliography:referencias.bib
+
+* Footnotes
+
+[fn:1] En este punto, la lectora puede verse tentada a considerar que la meritocracia tiene sentido. Pero trataremos de demostrar de forma breve los problemas de la meritocracia. Para un análisis más detallado de los problemas de la meritocracia para la sociedad en general sugerimos: Vélez, Fabio. (2018). ¿Meritocracia? ¿para quiénes?. Isonomía, (48), 147-167. Recuperado en 27 de marzo de 2019, de http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-02182018000100147&lng=es&tlng=es. 
+[fn:2]  El subrayado es mio.
+
+

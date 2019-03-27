@@ -1,2 +1,521 @@
-<h1>MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO</h1>
-<p> Test</p>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2019-03-27 Wed 12:39 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="\Large \color{white1}\textbf{Shunashi Jazmin Altamirano Pineda \quad} \Large \color{white1}\textbf{Alberto Eleuterio Flores Guerrero} \\
+\Large \color{white1}\textbf{Xicohtencatl A. Zempoalteca Castañeda}\vspace{5cm}" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO</h1>
+<div id="table-of-contents">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org335c7a7">1. Introducción</a>
+<ul>
+<li><a href="#org2e5bc36">1.1. Discriminación de Género en México</a></li>
+<li><a href="#orgd003191">1.2. Discriminación de Género en las TIC</a></li>
+<li><a href="#org8b1276e">1.3. La Mentalidad de Meritocracia</a></li>
+</ul>
+</li>
+<li><a href="#org424f535">2. Instrumentos</a>
+<ul>
+<li><a href="#orgcf8ef1e">2.1. Diagnostico de Situación</a></li>
+<li><a href="#org673aa30">2.2. Plan de Acción</a></li>
+</ul>
+</li>
+<li><a href="#orge299a60">3. Areas</a>
+<ul>
+<li><a href="#org5c43cbf">3.1. Código de Conducta</a></li>
+<li><a href="#org5e7a357">3.2. Programa de Equidad de Genero</a></li>
+<li><a href="#org854f40c">3.3. Monitoreo de Genero</a></li>
+<li><a href="#org27195e3">3.4. Medidas de Acción Positiva</a></li>
+<li><a href="#orga111e1f">3.5. Consejo de Equidad de Genero</a></li>
+<li><a href="#orgb73eb4c">3.6. Mujeres en la Toma de Decisiones</a></li>
+<li><a href="#org93f2ab7">3.7. Prevención de Acoso y Hostigamiento</a></li>
+<li><a href="#org5570f1a">3.8. Prevención de Violencia de Género</a></li>
+<li><a href="#orgc37f0df">3.9. Mentorías</a></li>
+<li><a href="#org3af0d3b">3.10. Políticas de Uso de Lenguaje</a></li>
+<li><a href="#org61b44d2">3.11. Inclusión Colectiva</a></li>
+<li><a href="#orge8dcb92">3.12. Alfabetización Digital</a></li>
+</ul>
+</li>
+<li><a href="#org9b96cc4">4. Referencias</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org335c7a7" class="outline-2">
+<h2 id="org335c7a7"><span class="section-number-2">1</span> Introducción</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org2e5bc36" class="outline-3">
+<h3 id="org2e5bc36"><span class="section-number-3">1.1</span> Discriminación de Género en México</h3>
+</div>
+<div id="outline-container-orgd003191" class="outline-3">
+<h3 id="orgd003191"><span class="section-number-3">1.2</span> Discriminación de Género en las TIC</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+<a href="http://www.ift.org.mx/sites/default/files/contenidogeneral/comunicacion-y-medios/estudiocualitativogenero-versionejecutiva.pdf">http://www.ift.org.mx/sites/default/files/contenidogeneral/comunicacion-y-medios/estudiocualitativogenero-versionejecutiva.pdf</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8b1276e" class="outline-3">
+<h3 id="org8b1276e"><span class="section-number-3">1.3</span> La Mentalidad de Meritocracia</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Otra cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos de TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
+</p>
+
+<p>
+La Real Academia Española define la palabra meritocracia como un <i>sistema de gobierno en que los puestos de responsabilidad se adjudican en función de los méritos personales.</i>  <a class='org-ref-reference' href="#RAE-meritocracia">RAE-meritocracia</a>
+</p>
+
+<p>
+En este sentido, podemos afirmar que meritocracia es un sistema de gobierno basado en la habilidad o el mérito, y no basado en la riqueza o posición social. En este contexto, mérito significaría un sistema donde la &laquo;inteligencia&raquo; y el &laquo;esfuerzo&raquo; son los que determinan el destino de las personas. <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</p>
+
+<p>
+Los defensores de la meritocracía suelen considerar que es bueno el poder acceder a puestos importantes, ya sea en el gobierno o en la industria privada. En México podemos encontrar lo dicho por Franco Hernández (2015), quien en su libro &laquo;<i>Mérito: construyendo el país de nosotros</i>&raquo; llega a afrimar que:
+</p>
+
+<blockquote>
+<p>
+&laquo;<i>La sociedad del mérito es justa, y es quizás la única forma en nuestros tiempos, dentro de las reglas del capitalismo global, para producir una sociedad productiva y cultivada.</i>&raquo; <a class='org-ref-reference' href="#PerezReward">PerezReward</a>
+</p>
+</blockquote>
+
+<p>
+En la misma forma el también mexicano Salvador Alva, presidente del Tecnológico de Monterrey, durante  la XVI México Cumbre de Negocios, afirmó que nuestro país necesita:
+</p>
+
+<blockquote>
+<p>
+&laquo;<i>Apostarle al talento y a la meritocracia con una educación de calidad es la mejor inversión que puede hacer el país; -otros países- están buscando a los mejores talentos para poderlos incubar, darles la mejor educación y la oportunidad para que su innovación emprenda</i>&raquo; <a class='org-ref-reference' href="#mexico-alva">mexico-alva</a>
+</p>
+</blockquote>
+
+<p>
+En el contexto del presente texto, quizas sea necesario señalar que los anteriormente citados, fueron egresados del Tecnológico de Monterrey, una de las escuelas más costosas de nuestro país. 
+</p>
+
+<p>
+Una de los áreas donde la meritocracia es vista de forma positiva es en el mundo de la tecnología, donde la tecnología es desarrollada por aquellas personas con los conocimientos y la inteligencia para crearla, y son estas las personas que tienen la voz más importante. 
+</p>
+
+<p>
+La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. 
+</p>
+</div>
+
+<div id="outline-container-org61409e1" class="outline-4">
+<h4 id="org61409e1"><span class="section-number-4">1.3.1</span> Problema de la meritocracia</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Esta mentalidad si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva mentalidad. El problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+</p>
+
+<p>
+Como ya vimos, las tecnologías de internet fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de internet se dio de manera prominente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA.
+</p>
+
+<p>
+El problema es que internet es una tecnología global, utilizada por personas de todos los países, culturas, sexos, religiones y colores, pero internet se desarrollo en un país donde la tecnología era de fácil acceso, esto trajo como consecuencia que las prioridades de internet fueron de acuerdo a las ideas de los que la desarrollaron.
+</p>
+
+<p>
+Internet no fue pensada por o para personas pobres, donde las conexiones de internet son difíciles e intermitentes, por esto, internet cada día soporta paginas o servicios más &laquo;pesados&raquo;, con uso de tecnologías que requieren un gran ancho de banda, dejando a las personas de zonas remotas y de difícil acceso con rezago tecnológico.
+</p>
+
+<p>
+Tampoco fue pensada por o para personas viviendo bajo dictaduras, o sistemas opresivos, por eso hoy en día existe el &laquo;Gran Firewall de China&raquo;, con el cual China logra imponer censura a sus usuarios, restringiendo la manera en que las empresas operan y el contenido que le pueden mostrar a los ciudadanos de este país. Así como la negación total del servicio lo cual han hecho Corea del Norte, Nepal, Egipto y Libia.
+</p>
+
+<p>
+Mucho menos fue pensada para proteger a periodistas, activistas y delatadores, por esto, hoy en día es posible rastrear y espiar a los usuarios de internet, por eso los ISP pueden conocer todo sitio que visitan sus clientes. Por eso empresas como Facebook o Google han amasado fortunas de miles de millones de dolares con el rastreo y uso de la información privada de las personas. Donde los ISP pueden inyectar publicidad a sus usuarios, aún en contra de su voluntad, algo que es común hoy en día con el uso de las redes móviles.
+</p>
+
+<p>
+La seguridad y la privacidad nunca fueron prioridades, si bien en los años recientes se ha visto un crecido interés por implementar seguridad y privacidad en internet, siendo que empresas como Mozilla, Google y fundaciones como la Electronic Frontier Foundation (EFF) han avocado y creado herramientas para facilitar el uso de TLS y HTTPS. Y ahora buscan también encriptar el DNS. 
+</p>
+
+<p>
+Es claro que la manera en que fue construido internet permite que se implementen estas tecnologías, sin cambiar todo el sistema, por esto se consideraba al principio de este documento, que si bien los principios de Derechos Humanos no deben cambiar la jerarquía de internet, si pueden usarse como un complemento para mejorar y dar paso a nuevas tecnologías que protejan a todos los usuarios y especialmente a las minorías.
+</p>
+
+<p>
+Es por eso que considero que el modelo de Internet y la meritocracia cuentan con una falla grave, la cual no es en el aspecto técnico, sino en el humano, al ser desarrollada no se consideraron como importantes estos aspectos, los cuales hoy en día nos afectan a todos. 
+</p>
+
+<p>
+Si bien la mayoría de los usuarios de internet no consideran problemático el que sea muy simple conocer su ubicación, el que las empresas puedan minar su información privada, o incluso, casos tan graves como el de Facebook que se encuentra bajo examen por el Congreso de los Estados Unidos por haber colaborado con Cambridge Analytica en la manipulación de las elecciones presidenciales de dicho país. La realidad es que estos problemas no dejan de ser importantes y graves. Problemas que si bien pueden resolverse, quizás sería mejor que se hubiese diseñado un sistema donde sería, sino imposible, si complicado el poder tener este tipo de practicas. 
+</p>
+
+
+
+<p>
+<a href="https://ciperchile.cl/2013/06/07/cinco-argumentos-contra-la-meritocracia/">https://ciperchile.cl/2013/06/07/cinco-argumentos-contra-la-meritocracia/</a>
+<a href="https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy">https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy</a>
+<a href="https://postmeritocracy.org/sp/">https://postmeritocracy.org/sp/</a>
+<a href="https://www.contributor-covenant.org/">https://www.contributor-covenant.org/</a>
+<a href="https://opensource.com/open-organization/16/6/presenting-framework-meritocracy">https://opensource.com/open-organization/16/6/presenting-framework-meritocracy</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org424f535" class="outline-2">
+<h2 id="org424f535"><span class="section-number-2">2</span> Instrumentos</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgcf8ef1e" class="outline-3">
+<h3 id="orgcf8ef1e"><span class="section-number-3">2.1</span> Diagnostico de Situación</h3>
+</div>
+<div id="outline-container-org673aa30" class="outline-3">
+<h3 id="org673aa30"><span class="section-number-3">2.2</span> Plan de Acción</h3>
+</div>
+</div>
+<div id="outline-container-orge299a60" class="outline-2">
+<h2 id="orge299a60"><span class="section-number-2">3</span> Areas</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org5c43cbf" class="outline-3">
+<h3 id="org5c43cbf"><span class="section-number-3">3.1</span> Código de Conducta</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+test
+<a href="https://www.contributor-covenant.org/es/version/1/4/code-of-conduct">https://www.contributor-covenant.org/es/version/1/4/code-of-conduct</a>
+test
+</p>
+</div>
+</div>
+<div id="outline-container-org5e7a357" class="outline-3">
+<h3 id="org5e7a357"><span class="section-number-3">3.2</span> Programa de Equidad de Genero</h3>
+</div>
+<div id="outline-container-org854f40c" class="outline-3">
+<h3 id="org854f40c"><span class="section-number-3">3.3</span> Monitoreo de Genero</h3>
+</div>
+<div id="outline-container-org27195e3" class="outline-3">
+<h3 id="org27195e3"><span class="section-number-3">3.4</span> Medidas de Acción Positiva</h3>
+</div>
+<div id="outline-container-orga111e1f" class="outline-3">
+<h3 id="orga111e1f"><span class="section-number-3">3.5</span> Consejo de Equidad de Genero</h3>
+</div>
+<div id="outline-container-orgb73eb4c" class="outline-3">
+<h3 id="orgb73eb4c"><span class="section-number-3">3.6</span> Mujeres en la Toma de Decisiones</h3>
+</div>
+<div id="outline-container-org93f2ab7" class="outline-3">
+<h3 id="org93f2ab7"><span class="section-number-3">3.7</span> Prevención de Acoso y Hostigamiento</h3>
+</div>
+<div id="outline-container-org5570f1a" class="outline-3">
+<h3 id="org5570f1a"><span class="section-number-3">3.8</span> Prevención de Violencia de Género</h3>
+</div>
+<div id="outline-container-orgc37f0df" class="outline-3">
+<h3 id="orgc37f0df"><span class="section-number-3">3.9</span> Mentorías</h3>
+</div>
+<div id="outline-container-org3af0d3b" class="outline-3">
+<h3 id="org3af0d3b"><span class="section-number-3">3.10</span> Políticas de Uso de Lenguaje</h3>
+</div>
+<div id="outline-container-org61b44d2" class="outline-3">
+<h3 id="org61b44d2"><span class="section-number-3">3.11</span> Inclusión Colectiva</h3>
+</div>
+<div id="outline-container-orge8dcb92" class="outline-3">
+<h3 id="orge8dcb92"><span class="section-number-3">3.12</span> Alfabetización Digital</h3>
+</div>
+</div>
+
+<div id="outline-container-org9b96cc4" class="outline-2">
+<h2 id="org9b96cc4"><span class="section-number-2">4</span> Referencias</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+
+<h1 class='org-ref-bib-h1'>Bibliography</h1>
+<ul class='org-ref-bib'><li><a id="RAE-meritocracia">[RAE-meritocracia] @miscRAE-meritocracia,
+    author = Real Academia Española, Asociación de Academias de la Lengua Española,
+    title = Definición de meritocracia - Diccionario de la lengua española - Edición del Tricentenario [En línea],
+    year = 2019,
+    month = 2019-03-27 [Fecha de Consulta 2019-03-27] Disponible en:,
+    note = "\urlhttps://dle.rae.es/?id=P0p9gVr",
+</a></li>
+<li><a id="PerezReward">[PerezReward] @miscPerezReward,
+    author = Arturo Franco Hernández,
+    title = Mérito y privilegio (Capítulo de Regalo) [En línea],
+    month = 2019-03-27 [Fecha de Consulta 2019-03-27] Disponible en:,
+    note = "\urlhttps://www.scribd.com/document/261566948/Me-rito-y-Privilegio-Capi-tulo-de-Regalo",
+</a></li>
+<li><a id="mexico-alva">[mexico-alva] @miscmexico-alva,
+    author = Carlos González Angulo,
+    title = México debe apostar al talento y a la meritocracia: Salvador Alva | Tecnológico de Monterrey [En línea],
+    month = 2019-03-27 [Fecha de Consulta 2019-03-27] Disponible en:,
+    note = "\urlhttps://tec.mx/es/noticias/guadalajara/negocios/mexico-debe-apostar-al-talento-y-la-meritocracia-salvador-alva",
+
+</a></li>
+</ul>
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Nota al pie de p&aacute;gina: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+En este punto, la lectora puede verse tentada a considerar que la meritocracia tiene sentido. Pero trataremos de demostrar de forma breve los problemas de la meritocracia. Para un análisis más detallado de los problemas de la meritocracia para la sociedad en general sugerimos: Vélez, Fabio. (2018). ¿Meritocracia? ¿para quiénes?. Isonomía, (48), 147-167. Recuperado en 27 de marzo de 2019, de <a href="http://www.scielo.org.mx/scielo.php?script=sci_arttext&amp;pid=S1405-02182018000100147&amp;lng=es&amp;tlng=es">http://www.scielo.org.mx/scielo.php?script=sci_arttext&amp;pid=S1405-02182018000100147&amp;lng=es&amp;tlng=es</a>. 
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Fecha: \Large \textcolor{white1}{Fecha: 2019-03-26}</p>
+<p class="author">Autor: \Large \color{white1}\textbf{Shunashi Jazmin Altamirano Pineda \quad} \Large \color{white1}\textbf{Alberto Eleuterio Flores Guerrero} <br />
+\Large \color{white1}\textbf{Xicohtencatl A. Zempoalteca Castañeda}\vspace{5cm}</p>
+<p class="date">Created: 2019-03-27 Wed 12:39</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
