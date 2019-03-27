@@ -113,9 +113,7 @@ https://opensource.com/open-organization/16/6/presenting-framework-meritocracy
 ** Plan de Acción 
 * Areas
 ** Código de Conducta
-test
 https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
-test
 ** Programa de Equidad de Genero
 ** Monitoreo de Genero
 ** Medidas de Acción Positiva
