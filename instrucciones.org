@@ -7,7 +7,7 @@ Titulos y subtitulos:
 * Titulo
 ** Subtitulos
 *** Subtitulo del subtitulo
-#+END_SCR
+#+END_SRC
 Para poner un titulo se pone un asterisco un espacio y el titulo, pueden
 poner me parece que hasta 6 asteriscos, pero me parece bien limitarlo a
 maximo 3.
@@ -38,14 +38,15 @@ Listas:
 1. elemento1
 1. elemento2
 1. elemento3
+#+BEGIN_SRC
++ elemento
++ elemento
++ elemento
 
-~+ elemento~
-~+ elemento~
-~+ elemento~
-
-~1. elemento3~
-~1. elemento3~
-~1. elemento3~
+1. elemento1
+1. elemento2
+1. elemento3
+#+END_SRC
 
 Para las listas con un simbolo de mas "+" o un simbolo de menos "-" es
 suficiente. Para las listas numeradas con un numero es suficiente "1",
