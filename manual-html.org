@@ -34,12 +34,12 @@
 #+LATEX:  \pagenumbering{gobble}
 #+LANGUAGE: es
 #+OPTIONS: ':t  toc:nil
+#+EXPORT_FILE_NAME:  index.html
 #+TITLE:      MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO
-#+AUTHOR:     \Large \color{white1}\textbf{Shunashi Jazmin Altamirano Pineda \quad}
-#+AUTHOR:    \Large \color{white1}\textbf{Alberto Eleuterio Flores Guerrero} \\
-#+AUTHOR:     \Large \color{white1}\textbf{Xicohtencatl A. Zempoalteca Castañeda}\vspace{5cm}
-#+DATE:       \Large \textcolor{white1}{Fecha: 2019-03-26}
-
+#+AUTHOR: Shunashi Jazmin Altamirano Pineda \quad
+#+AUTHOR: Alberto Eleuterio Flores Guerrero
+#+AUTHOR: Xicohtencatl A. Zempoalteca Castañeda
+#+DATE:       Fecha: 2019-03-26
 
 #+LATEX: \newpage
 #+LATEX: \pagecolor{white1}
