@@ -36,8 +36,8 @@
 #+OPTIONS: ':t  toc:nil
 #+EXPORT_FILE_NAME:  index.html
 #+TITLE:      MANUAL BUENAS PRÁCTICAS TIC CON PERSPECTIVA DE GÉNERO
-#+AUTHOR: Shunashi Jazmin Altamirano Pineda \quad
-#+AUTHOR: Alberto Eleuterio Flores Guerrero
+#+AUTHOR: Shunashi Jazmin Altamirano Pineda,
+#+AUTHOR: Alberto Eleuterio Flores Guerrero,
 #+AUTHOR: Xicohtencatl A. Zempoalteca Castañeda
 #+DATE:       Fecha: 2019-03-26
 
