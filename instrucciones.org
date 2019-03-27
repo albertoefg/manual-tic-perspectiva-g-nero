@@ -3,9 +3,11 @@ Titulos y subtitulos:
 * Titulo
 ** Subtitulos
 *** Subtitulo del subtitulo
-~* Titulo~
-~** Subtitulos~
-~*** Subtitulo del subtitulo~
+#+BEGIN_SRC
+* Titulo
+** Subtitulos
+*** Subtitulo del subtitulo
+#+END_SCR
 Para poner un titulo se pone un asterisco un espacio y el titulo, pueden
 poner me parece que hasta 6 asteriscos, pero me parece bien limitarlo a
 maximo 3.
