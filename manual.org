@@ -72,48 +72,72 @@ En la misma forma el también mexicano Salvador Alva, presidente del Tecnológic
 "/Apostarle al talento y a la meritocracia con una educación de calidad es la mejor inversión que puede hacer el país; -otros países- están buscando a los mejores talentos para poderlos incubar, darles la mejor educación y la oportunidad para que su innovación emprenda/" cite:mexico-alva
 #+END_QUOTE
 
-En el contexto del presente texto, quizas sea necesario señalar que los anteriormente citados, fueron egresados del Tecnológico de Monterrey, una de las escuelas más costosas de nuestro país. 
+En el contexto del presente texto, quizas sea necesario señalar que los anteriormente citados, fueron egresados del Tecnológico de Monterrey, una de las escuelas más costosas de nuestro país y a donde normalmente solo la clase alta de nuestro país tiene accesso.
 
 Una de los áreas donde la meritocracia es vista de forma positiva es en el mundo de la tecnología, donde la tecnología es desarrollada por aquellas personas con los conocimientos y la inteligencia para crearla, y son estas las personas que tienen la voz más importante. 
 
-La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. 
+La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. Pero, pasaremos a explicar porque la meritocracia debe dejar de considerarse como una forma valida de desarrollo, especialmente por parte de los proyectos de TIC.
 
 *** Problema de la meritocracia
+La idea de la meritocracia si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva forma de pensar.
 
-Esta mentalidad si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva mentalidad. El problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+La meritocracia puede parecer de primer momento como la forma más justa de gobernar, despues de todo, aquellos que tienen el merito con esfuerzo, trabajo y estudios, son a los que se les da la oportunidad, ya sea en el gobierno o en la industria privada.
 
-Como ya vimos, las tecnologías de internet fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de internet se dio de manera prominente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA.
+El problema de la meritocracia emerge cuando realizamos un examen más a fondo de esta forma de pensar, lo que nos revela que tiene problemas fundamentales. Es preciso comenzar preguntandonos ¿quiénes son los que tienen méritos?, veamos algunos ejemplos.
+Es dificil imaginar que un niño que creció en la pobreza, siendo obligado a abandonar la escuela desde pequeño, para trabajar en las calles para llevar dinero a un padre abusivo, drogadito y alcoholico, tenga la oportunidad de convertirse en un destacado ingeniero en informática. Después de todo, el padre se aseguraría a golpes de mantenerlo alejado de la escuela.
 
-El problema es que internet es una tecnología global, utilizada por personas de todos los países, culturas, sexos, religiones y colores, pero internet se desarrollo en un país donde la tecnología era de fácil acceso, esto trajo como consecuencia que las prioridades de internet fueron de acuerdo a las ideas de los que la desarrollaron.
+Podemos imaginar también el caso de una niña a quien se le prohibió el uso de la computadora, debido a que "esas son cosas de hombres", y solo se le permitía el uso de la computadora a su hermano mayor. Niña a la que durante todo su desarrollo se le prohibió asistir a clases de ingeniería, computación, o cualquier otra matería de "hombres".
 
-Internet no fue pensada por o para personas pobres, donde las conexiones de internet son difíciles e intermitentes, por esto, internet cada día soporta paginas o servicios más "pesados", con uso de tecnologías que requieren un gran ancho de banda, dejando a las personas de zonas remotas y de difícil acceso con rezago tecnológico.
+La lectora en este caso puede pensar "conozco uno o dos ejemplos que si lograron superar esta situación", pero es innegable que es muy dificíl para la mayoría de las personas que crecen en situaciones así el lograr superar todos los obstaculos, para poder competir contra personas que tuvieron el privilegio de vivir en un hogar amoroso, donde los padres tenian los medios economicos suficientes para apoyar a sus hijos, y que tuvieron todo los medios desde chicos para aprender y dedicarse a cualquier interés que tuviesen.
 
-Tampoco fue pensada por o para personas viviendo bajo dictaduras, o sistemas opresivos, por eso hoy en día existe el "Gran Firewall de China", con el cual China logra imponer censura a sus usuarios, restringiendo la manera en que las empresas operan y el contenido que le pueden mostrar a los ciudadanos de este país. Así como la negación total del servicio lo cual han hecho Corea del Norte, Nepal, Egipto y Libia.
+Pero es también importante ilustrar nuestro argumento con lo expuesto por, Michael Young en su libro /The rise of the meritocracy, 1870-2033: An essay on education and equality/ (El  triunfo de la meritocracia, 1870-2033: ensayo sobre educación e igualdad). cite:michael-abajo
+
+En su libro, expone que la inteligencia es, al igual que la fortuna o nacer en una familia acomodada, una especie de "lotería" genetica, donde sólo unos pocos van a poder tener accesso a los beneficios de la meritocriacia, mientras los demás vivirán apenas con lo necesario:
+
+#+BEGIN_QUOTE
+/Una sociedad en la que se implementara una lotería que asignara al 10% de los recién nacidos recursos suficientes para vivir una vida plena, entregando al restante 90% recursos tan mínimos que apenas garantizaran la supervivencia, sería una sociedad con perfecta igualdad de oportunidades. Nadie tendría más probabilidad que el resto de vivir una vida plena. No habría espacio para privilegios heredados. Sería, sin embargo, una sociedad difícil calificar de justa/.
+#+END_QUOTE
+ 
+
+Es dificil defender la "igualdad de oportunidades" que proclama la meritocracia, cuando en realidad son pocos los que realmente tienen acceso a dichas oportunidades, ya sea por problemas economicos, sociales o personales; pues nuestra sociedad capitalista no prevé la igualdad de medios para todos. En palabras de Matías Cociña: /la igualdad de oportunidades es, en otras palabras, una condición necesaria pero no suficiente para la construcción de un orden justo./ cite:ciprchile-cinco
+
+Por otra parte, es importante cuestionarnos si realmente es más importante la opinión de alguien que tiene merito, que la de alguien que no lo tiene. A simple vista puede parecer que un investigador y desarrollador de tecnología debe tener más importancia a la hora de decidir como implementar un protocolo de comunicación, que una madre de familia de bajos recursos y sin ningún tipo de educación formal. Pero, esta madre de familia puede ser que tenga una necesidad de un protocolo de comunicación seguro, y puede ser que el escuchar su voz lleve a desarrollar un protocolo que beneficie a otras madres de familia.
+ 
+Cuando escuchamos las voces de solo un grupo de personas, en este caso la personas con "merito", perdemos la oportunidad de ver los puntos de vistas, ideas, experiencias y formas de vida de otros grupos, que también podrían aportar y dar un punto de vista y perspectiva diferente a nuestros proyectos.
+
+
+*** Problema de la meritocracia en las TIC
+Como ya vimos, el problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología donde prevalece la meritocracia es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+
+Las tecnologías de Internet, Informatica y Telecomunicaciones fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de las TIC fue principalmente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA; y en una menor medida en personas de otros países, siendo el denominador común que fue las TIC fueron desarrolladas por hombres de clase media alta. cite:wikipedia:internet
+
+El problema es que las TIC tienen un impacto global, son utilizada por personas de todos los países, culturas, sexos, religiones y colores, pero su desarrollo fue principalmenteen un país donde la tecnología era de fácil acceso y donde había una democracia estable, esto trajo como consecuencia que las prioridades de las TIC fuesen acordes a las personas viviendo en los Estados Unidos. [fn:2]
+
+Desafortunadamente, las TIC no fue pensada por o para personas de escasos recursos, tampoco fue pensada por o para personas viviendo bajo dictaduras, o sistemas opresivos, por eso hoy en día existe el "Gran Firewall de China", con el cual China logra imponer censura a sus usuarios, restringiendo la manera en que las empresas operan y el contenido que le pueden mostrar a los ciudadanos de este país. cite:wikipedia:great-firewall
 
 Mucho menos fue pensada para proteger a periodistas, activistas y delatadores, por esto, hoy en día es posible rastrear y espiar a los usuarios de internet, por eso los ISP pueden conocer todo sitio que visitan sus clientes. Por eso empresas como Facebook o Google han amasado fortunas de miles de millones de dolares con el rastreo y uso de la información privada de las personas. Donde los ISP pueden inyectar publicidad a sus usuarios, aún en contra de su voluntad, algo que es común hoy en día con el uso de las redes móviles.
 
-La seguridad y la privacidad nunca fueron prioridades, si bien en los años recientes se ha visto un crecido interés por implementar seguridad y privacidad en internet, siendo que empresas como Mozilla, Google y fundaciones como la Electronic Frontier Foundation (EFF) han avocado y creado herramientas para facilitar el uso de TLS y HTTPS. Y ahora buscan también encriptar el DNS. 
-
-Es claro que la manera en que fue construido internet permite que se implementen estas tecnologías, sin cambiar todo el sistema, por esto se consideraba al principio de este documento, que si bien los principios de Derechos Humanos no deben cambiar la jerarquía de internet, si pueden usarse como un complemento para mejorar y dar paso a nuevas tecnologías que protejan a todos los usuarios y especialmente a las minorías.
-
-Es por eso que considero que el modelo de Internet y la meritocracia cuentan con una falla grave, la cual no es en el aspecto técnico, sino en el humano, al ser desarrollada no se consideraron como importantes estos aspectos, los cuales hoy en día nos afectan a todos. 
-
-Si bien la mayoría de los usuarios de internet no consideran problemático el que sea muy simple conocer su ubicación, el que las empresas puedan minar su información privada, o incluso, casos tan graves como el de Facebook que se encuentra bajo examen por el Congreso de los Estados Unidos por haber colaborado con Cambridge Analytica en la manipulación de las elecciones presidenciales de dicho país. La realidad es que estos problemas no dejan de ser importantes y graves. Problemas que si bien pueden resolverse, quizás sería mejor que se hubiese diseñado un sistema donde sería, sino imposible, si complicado el poder tener este tipo de practicas. 
+De la misma forma, la participación de las mujeres, o de personas  las comunidades que tienen un sexo, una orientación sexual o un género no aceptados por la heteronorma y el binarismo tradicionales: Lesbianas, Gay, Bisexuales, Transexuales, Intersexuales, Queer y Asexuales (LGBTIQA), así como de las personas marginadas o en situaciones de vulnerabilidad, nunca fue considerada como una parte importante o relevante en el desarrollo de las TIC, y hoy en día vemos los resultados, donde las mujeres o las personas de la comunidad LGBTIQA tienen una mínima participación, en comparación con los hombres, especialmente con hombres de clase media-alta. cite:wikipedia:lgbt
 
 
+En este sentido, algunos grupos dentro de las TIC han decidido tomar un camino diferente, luchando contra el mito de la democracia, el cual "deshumaniza", pues en vez de llevarnos a vernos como humanos dialogando con otros seres humanos, nos invita a ser jueces, que solo aceptan y valoran la opinión de aquellos que consideramos "utiles", el utilitarismo de la meritocracia lleva a ver a las personas como meras herramientas para un "bien mayor". cite:EhmkeThe-dehumanizing
 
-https://ciperchile.cl/2013/06/07/cinco-argumentos-contra-la-meritocracia/
-https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy
-https://postmeritocracy.org/sp/
-https://www.contributor-covenant.org/
-https://opensource.com/open-organization/16/6/presenting-framework-meritocracy
+Entre los movimientos que han surgido dentro de las TIC para luchar contra la meritocracia podemos destacar el "El Manifiesto Pos-Meritocracia", que ha sido firmado por una gran cantidad de profesionales de la industria del software, [fn:3] el cual busca en sus propias palabras:
+
+#+BEGIN_QUOTE
+/Es hora de que nosotros, como industria, abandonemos la noción de que el mérito es algo que se puede medir, que cada individuo puede perseguir en términos iguales y que siempre puede distribuirse justamente./
+
+/¿Cómo se ve un mundo pos-meritocracia? Se basa en un conjunto básico de valores y principios, una afirmación de pertenencia que se aplica a todos los que se dedican a la práctica del desarrollo de software./ cite:post-meritocracy
+#+END_QUOTE
 
 * Instrumentos
 ** Diagnostico de Situación
 ** Plan de Acción 
 * Areas
 ** Código de Conducta
+
 https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
+
 ** Programa de Equidad de Genero
 ** Monitoreo de Genero
 ** Medidas de Acción Positiva
@@ -133,6 +157,8 @@ bibliography:referencias.bib
 * Footnotes
 
 [fn:1] En este punto, la lectora puede verse tentada a considerar que la meritocracia tiene sentido. Pero trataremos de demostrar de forma breve los problemas de la meritocracia. Para un análisis más detallado de los problemas de la meritocracia para la sociedad en general sugerimos: Vélez, Fabio. (2018). ¿Meritocracia? ¿para quiénes?. Isonomía, (48), 147-167. Recuperado en 27 de marzo de 2019, de http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-02182018000100147&lng=es&tlng=es. 
-[fn:2]  El subrayado es mio.
 
+[fn:2] Un ejemplo para ilustrar este punto lo encontramos claramante en la Corporación de Internet para la Asignación de Nombres y Números (ICANN), la cual funciona como una corporación en los Estados Unidos, pese a la globalidad de Internet y a la importancia del sistema de nombres de dominio. Para mayor analisis se puede consultar Wikipedia: [Corporación de Internet para la Asignación de Nombres y Números. (2018, 28 de noviembre). Wikipedia, La enciclopedia libre. Fecha de consulta: 00:08, marzo 28, 2019 desde https://es.wikipedia.org/w/index.php?title=Corporaci%C3%B3n_de_Internet_para_la_Asignaci%C3%B3n_de_Nombres_y_N%C3%BAmeros&oldid=112333685 ]
+
+[fn:3] Curiosamente, entre sus firmates se encuentra Patricia Torvalds, hija de Linus Torlavds, quien creó el kernel Linux y que junto con este proyecto, ha sido uno de los principales estandartes de los defensores de la meritocracia dentro de las TIC.
 

@@ -13,7 +13,7 @@ Para poner un titulo se pone un asterisco ~*~ un espacio y el titulo, pueden pon
 
 
 * Negritas
-Ejemplo:
+Ejemplo: \\
 *Texto en negritas* 
 Debemos escribir:
 #+BEGIN_SRC
@@ -23,7 +23,7 @@ para el texto en negritas solo es necesario poner la frase o palabra
 entre asteriscos, sin espacios ~*negritas*~
 
 * Italicas
-Ejemplo:
+Ejemplo: \\
 /Texto en italicas/ 
 Debemos escribir:
 #+BEGIN_SRC
@@ -32,7 +32,7 @@ Debemos escribir:
 Igual que las negritas pero con diagonales ~/italicas/~
 
 * Subrayado
-Ejemplo:
+Ejemplo: \\
 _texto en subayado_ 
 Debemos escribir:
 #+BEGIN_SRC
@@ -43,7 +43,7 @@ Igual pero con guion bajo ~_subrayado_~
 
 
 * Listas
-Ejemplo:
+Ejemplo: \\
 + elemento
 + elemento
 + elemento
