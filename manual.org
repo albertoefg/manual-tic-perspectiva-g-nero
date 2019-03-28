@@ -135,9 +135,6 @@ Entre los movimientos que han surgido dentro de las TIC para luchar contra la me
 ** Plan de Acción 
 * Areas
 ** Código de Conducta
-
-https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
-
 ** Programa de Equidad de Genero
 ** Monitoreo de Genero
 ** Medidas de Acción Positiva
@@ -151,6 +148,7 @@ https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
 ** Alfabetización Digital
 
 * Referencias
+https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
 bibliographystyle:unsrt
 bibliography:referencias.bib
 
