@@ -95,6 +95,35 @@ Establece que el estado mexicanos protegerá a las mujeres de la violencia y dis
 #+BEGIN_QUOTE
 "*Artículo 19*.- /Los tres órdenes de gobierno, a través de los cuales se manifiesta el ejercicio del poder público, tienen la obligación de organizar el aparato gubernamental de manera tal que sean capaces de asegurar, en el ejercicio de sus funciones, el derecho de las mujeres a una vida libre de violencia./"
 #+END_QUOTE
+** Diagnóstico de Situación 
+De acuerdo con el Reporte sobre la Discriminación en México 2012, durante las últimas décadas, ha incrementado la incorporación de las mujeres al mercado laboral. cite:conapred-reporte
+
+#+BEGIN_QUOTE
+"/Varios factores se han combinado para aumentar la participación femenina en las actividades remuneradas, entre los que destacan: la necesidad de aportar ingresos al hogar, la disminución en las tasas de fecundidad, el mayor acceso de las mujeres a los sistemas de educación, la migración y el desempleo masculino y, obviamente, el cambio en la percepción social respecto a las actividades de mujeres y hombres (Cardero y Espinosa, 2010, pp. 20-21)/".
+#+END_QUOTE
+
+Sin embargo, esto vino en conjunto con una gran cantidad de problemas de género, debido a la marginación que existe en nuestro país contra la mujer, por lo que cuando tienen acceso a algún trabajo, este suele ser mal pagado y, en muchos casos, a trabajos con desventaja ya que requieren menores credenciales y en muchas veces sin una preparación académica adecuada.
+
+#+BEGIN_QUOTE
+"/Con todo, las mujeres siguen siendo víctimas de prejuicios que las marginan. En relación a los hombres, sufren de discriminación salarial, pues reciben un pago inferior por igual trabajo y no tienen una participación equitativa de las ventajas y dignificación del empleo y en muchos casos, carecen de prestaciones y seguridad laboral. La Ley de Seguridad Social no prevé prestación de cuidados a los hombres, ni licencia de paternidad, lo que provoca que las mujeres asuman la responsabilidad plena en tales casos; tienen una cobertura limitada para el acceso a guarderías y realizan trabajo mal remunerado (Conapred, 2006, p. 28; Medina, 2011, mesa de trabajo). Las mujeres consideran que los principales problemas que tienen en la actualidad están relacionados con el empleo (Enadis, 2010)/".\\
+... \\
+"/Los estereotipos propios de una sociedad construida al cobijo del androcentrismo –cosmovisión que todo lo circunscribe a la mirada y valoración del varón– han influido en la asimétrica presencia femenina en el mercado laboral. Las fórmulas que condenan a las mujeres a las actividades privadas promueven, desventajosamente, a los hombres en el ejercicio de las funciones públicas; mientras los hombres participan en trabajos considerados ad hoc para la construcción androcéntrica (trabajos de exigencia física, por ejemplo como conductores de maquinaria pesada); a las mujeres, también en coherencia con las construcciones sociales, se les cree aptas para labores de menor exigencia física. El Informe de Seguimiento junio-diciembre 2000, de la Contraloría Social del Programa Nacional de la Mujer (cspnm), constató que las mujeres se concentran en ramas de actividad que demandan menor calificación y que son consideradas como una extensión de los quehaceres del hogar: enfermeras, afanadoras, azafatas, cuidadoras, trabajadoras del hogar, etcétera (Conapred, 2006, p. 31)/."
+#+END_QUOTE
+ 
+
+#+CAPTION:  Principales problemas percibidos por las mujeres (2010) Problemas relacionados con el empleo, 21.2%. Imagén tomada de CONAPRED.
+#+ATTR_LATEX: :width 0.8\textwidth
+[[file:imagenes/problemas.png]]
+
+
+
+#+CAPTION:  Proporción de la matrícula femenina por área de conocimiento (1980-2004) Imagén tomada de CONAPRED.
+#+ATTR_LATEX: :width 0.8\textwidth
+[[file:imagenes/proporcion.png]]
+
+
+
+
 ** Discriminación de Género en las TIC
 #+LATEX: \lettrine[lines=1]{C}{omo} 
 parte importante de la discriminación de género en las TIC podemos incluir la "mentalidad de meritocracia", la cual consideramos tan importante que le damos su propio apartado más adelante. El presente apartado se enfocará en mostrar algunas de las diferencias que existen actualmente en el campo de las TIC.
