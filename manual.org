@@ -59,7 +59,7 @@
 #+LATEX: \thispagestyle{empty}
 #+LATEX: \vspace*{9cm}
 #+LATEX: \begin{center}
-#+LATEX: {\fontsize{30pt}{30pt}\selectfont {\color{white1}\textbf{INTRODUCCIÓN}}}
+#+LATEX: {\fontsize{30pt}{30pt}\selectfont {\color{white1}\textbf{TIC Y DILEMAS ÉTICOS}}}
 #+LATEX: \end{center}
 #+LATEX: \mbox{}
 
@@ -67,7 +67,7 @@
 #+LATEX: \newpage
 #+LATEX:  \pagenumbering{arabic}
 
-* Introducción
+* TIC Y DILEMAS ÉTICOS
 ** Discriminación de Género en México
 #+LATEX: \lettrine[lines=1]{L}{a} 
 violencia contra la mujer es un tema cada vez mas grave en nuestro país, el cual ha sido tratado muy poco en el contexto digital. Con la llegada de internet y la sociedad de la información, los patrones de violencia machista lejos de disminuir, se han agravado con el uso de las nuevas tecnologías, ya que estas permiten el anonimato en linea, lo cual puede crear un  canal para  la  expresión  crítica  que  otros  medios  de  comunicación  masiva  no  permiten, pero  también  puede  ser  utilizado  como  un  medio  de  actividades  criminales, represión, extorsión y violencia. cite:universidad18:_estud_repres
@@ -96,7 +96,8 @@ Establece que el estado mexicanos protegerá a las mujeres de la violencia y dis
 "*Artículo 19*.- /Los tres órdenes de gobierno, a través de los cuales se manifiesta el ejercicio del poder público, tienen la obligación de organizar el aparato gubernamental de manera tal que sean capaces de asegurar, en el ejercicio de sus funciones, el derecho de las mujeres a una vida libre de violencia./"
 #+END_QUOTE
 ** Diagnóstico de Situación 
-De acuerdo con el Reporte sobre la Discriminación en México 2012, durante las últimas décadas, ha incrementado la incorporación de las mujeres al mercado laboral. cite:conapred-reporte
+#+LATEX: \lettrine[lines=1]{D}{e} 
+acuerdo con el Reporte sobre la Discriminación en México 2012, durante las últimas décadas, ha incrementado la incorporación de las mujeres al mercado laboral. cite:conapred-reporte
 
 #+BEGIN_QUOTE
 "/Varios factores se han combinado para aumentar la participación femenina en las actividades remuneradas, entre los que destacan: la necesidad de aportar ingresos al hogar, la disminución en las tasas de fecundidad, el mayor acceso de las mujeres a los sistemas de educación, la migración y el desempleo masculino y, obviamente, el cambio en la percepción social respecto a las actividades de mujeres y hombres (Cardero y Espinosa, 2010, pp. 20-21)/".
@@ -111,7 +112,7 @@ Sin embargo, esto vino en conjunto con una gran cantidad de problemas de género
 #+END_QUOTE
  
 
-#+CAPTION:  Principales problemas percibidos por las mujeres (2010) Problemas relacionados con el empleo, 21.2%. Imagén tomada de CONAPRED.
+#+CAPTION:  Principales problemas percibidos por las mujeres (2010) Problemas relacionados con el empleo: 21.2%. Imagén tomada de CONAPRED.
 #+ATTR_LATEX: :width 0.8\textwidth
 [[file:imagenes/problemas.png]]
 
@@ -246,7 +247,7 @@ Entre los movimientos que han surgido dentro del campo de las TIC para luchar co
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-* Instrumentos
+* INSTRUMENTOS
 ** Planeación
 *** Diagnostico de Situación
 *** Plan de Acción 
@@ -263,11 +264,56 @@ https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
 *** Monitoreo de Genero
 ** Acciones
 *** Medidas de Acción Positiva
+Las medidas de acción positiva, son aquellas que tienen por objetivo el apoyar y dar un trato equitativo a las minorias o los grupos que de forma regular sufren de discriminación, con el objetivo de disminuir las posibles desigualdades, ya que, como ya lo mencionabamos en el apartado sobre la meritocracia, suele existir discriminación, aún en situaciones que no reconocemos.
+
+En México encontramos un ejemplo de este tipo de acciones lo encontramos en la política, pues de hace algunos años se volvió obligatoria la existencia de una mayor cantidad de mexicanas en la vida política de nuestro país, mediante la "Ley General de Instituciones y Procedimientos Electorales", que en su artículo 7 dice:
+
+#+BEGIN_QUOTE
+"/Artículo 7./ \\
+/1. Votar en las elecciones constituye un derecho y una obligación que se ejerce para integrar órganos del  Estado  de  elección  popular.  También  es  derecho  de  los  Ciudadanos  y  obligación  para  los  partidos políticos la igualda d de oportunidades y *la paridad entre hombres y mujeres* para tener acceso a cargos de elección popular/"
+ #+END_QUOTE
+
+Un ejemplo de como podemos implementar acciones positivas aparece en el "/Handbook on Gender Equality Best Practices in European Journalists’ Unions."/, en el cual nos pone el ejemplo de instituir una "cuota", es decir, asegurar que en cualquier proyecto exista cuando menos de un 30 a un 40% de mujeres, para asegurar su participación.
+
+#+BEGIN_QUOTE
+"/Verdi, one of the German unions of journalists, decided that all actors within the organisation should be taken into account to realise the equal participation and representation of women and men. Since 2007, the union implemented a women’s quota, which means that half of all executive posts are occupied by women/.
+
+/The number of women on boards and committees holding union office should, at the very least, correspond to the percentage of female members (proportionality). This is what the union’s rules stipulate (§ 20 Principles §3 and § 83). Quota for women represent 50.44 percent of total membership; therefore they fill half the posts on boards and committees./" cite:journalists:_handb_gender_equal_best_pract
+ #+END_QUOTE 
+
+Similares acciones se sugieren a las TIC, para asegurar que disminuya la discriminación y dominación de los grupos de hombres, pues al implementar una cuota de porcentaje mínimo de mujeres, es factible que los eventos negativos disminuyan, como el acoso sexual o la discriminación de género. Además de disminuir la barrera de entrada para las mujeres, quienes se sentirán menos intimidadas de trabajar en el ramo de las TIC.
+
 *** Mujeres en la Toma de Decisiones
+Es importante que las mujeres no sólo se encuentren en igual numero dentro de los centros de trabajo o de las TIC, también es importante que accedan a importantes puestos de trabajo, para asegurar un verdadero trato equitativo.
+
+De acuerdo con el Diagnóstico de autoevaluación de la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación, uno de los requisitos escenciales en materia de igualdad laboral y no discriminación es el /contar con procesos de ascenso y permanencia con igualdad de oportunidades/, el cual se transcribe:
+
+#+BEGIN_QUOTE
+"/Que   se   cuente   con   procesos   transparentes   y accesibles de movilidad horizontal y vertical libres de sesgos sexistas o discriminatorios/. \\
+/Que  se  cuente  con  mecanismos  de  evaluación del desempeño  del  personal  que  sean  objetivos,  que consideren    una    convocatoria    previa    para    su participación.\\
+ Que   los   mecanismos   antes   mencionados   sean difundidos   a   todo   el   personal   de   forma   clara   y oportuna./" cite:diagn_norma_mexic_nmx_r
+ #+END_QUOTE
+
+De forma similar, las TIC pueden implementar este tipo de mecanismos, para asegurar que las mujeres tengan una participación equitativa en los puestos de liderazgo y que se rompan con los estereotipos en los que los hombres son los que suelen mandar en este sector.
+
 *** Mentorías
 *** Alfabetización Digital
+Es importante entender que aún las mujeres que no han estudiado o laborado en el ambito de las TIC, también pueden estar interesadas en acercarse, especialmente si trabajan dentro de una empresa cuyo principal giro son las TIC, aún cuando se encuetren en otro tipo de puestos, como la contabilidad o la publicidad.
+
+Es importante implementar una política de alfabetización digital, por un objetivo doble: que ninguna mujer quede excluida de un mundo en el que predominarán las TIC y que se aprovechen las potencialidades de la tecnología para el desarrollo personal y laboral.
+
+El uso correcto y estratégico de las TIC las coloca de forma indudable como herramientas de empoderamiento, pudiendo tener un papel decisivo en la integración de las mujeres dentro nuestra sociedad. 
+
+Lo cual es contemplado en el Diagnóstico de autoevaluación de la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación, en el elemento /contar con procesos de formación, capacitac ión, adiestramiento y con igualdad de oportunidades/, que a la letra dice:
+
+#+BEGIN_QUOTE
+"/Que se cuente con procesos transparentes y accesibles libres de sesgos sexistas o discriminatorios./ \\
+/Que considere a todo el personal que labora en el centro de trabajo sin importar los niveles de responsabilidad. \\
+Que se cuente con mecanismos transparentes, incluyentes y con perspectiva de género, para el acceso a la formación, capacitación, adiestramie nto y del personal durante la jornada de trabajo/ cite:diagn_norma_mexic_nmx_r
+ #+END_QUOTE
+
 #+LATEX: \newpage
-* Referencias
+* REFERENCIAS
 bibliographystyle:unsrt
 bibliography:referencias.bib
 
