@@ -27,6 +27,15 @@
 #+LATEX_HEADER: \definecolor{blue1}{HTML}{2A7FFF}
 #+LATEX_HEADER: \definecolor{bullet-color}{HTML}{004455}
 #+LATEX_HEADER: \definecolor{page-color}{HTML}{FF2F80}
+
+#+LATEX: \definecolor{sections-color}{HTML}{FF2F80}
+#+LATEX: \definecolor{subsections-color}{HTML}{C83771}
+#+LATEX: \definecolor{subsubsections-color}{HTML}{800033}
+
+#+LATEX: \sectionfont{\color{sections-color}}
+#+LATEX: \subsectionfont{\color{subsections-color}}
+#+LATEX: \subsubsectionfont{\color{subsubsections-color}}
+
 #+LATEX: \pagecolor{page-color}\afterpage{\nopagecolor}
 
 #+LATEX: \color{black1}
@@ -48,14 +57,67 @@
 #+LATEX: \newpage
 #+LATEX:  \pagenumbering{arabic}
 
+
 * Introducción
 ** Discriminación de Género en México
-** Discriminación de Género en las TIC
+#+LATEX: \lettrine[lines=1]{L}{a} 
+violencia contra la mujer es un tema cada vez mas grave en nuestro país, el cual ha sido tratado muy poco en el contexto digital. Con la llegada de internet y la sociedad de la información, los patrones de violencia machista lejos de disminuir, se han agravado con el uso de las nuevas tecnologías, ya que estas permiten el anonimato en linea, lo cual puede crear un  canal para  la  expresión  crítica  que  otros  medios  de  comunicación  masiva  no  permiten, pero  también  puede  ser  utilizado  como  un  medio  de  actividades  criminales, represión, extorsión y violencia. cite:universidad18:_estud_repres
 
-http://www.ift.org.mx/sites/default/files/contenidogeneral/comunicacion-y-medios/estudiocualitativogenero-versionejecutiva.pdf
+Es importante exponer que en la actualidad existen tres mujeres cuyos casos son una muestra de violencia digital contra la mujer por parte del Estado Mexicano: Carmen Aristegui, Stephanie Brewer y Karla Micheel Salas; las tres recibieron un malware de espionaje conocido como /Pegasus/, presuntamente atacadas por el Gobierno Federal, y cuyos casos no fueron investigados adecuadamente por la Procuraduría General de la República, y actualmente el caso de Stephanie Brewer se encuentra bajo estudio por la Comisión Interamericana de Derechos Humanos. cite:mx17:_la_mexic,libertad17:_comun_r96
+
+Lo cual cobra especial relevancia en caso de una mujer, ya que la violencia de genero se encuentra latente en las redes sociales, existiendo casos tristes y notorios, como el caso de la periodista Frida Guerrera, quien usa las redes sociales como una herramienta para difundir  su  trabajo  periodístico  sobre  feminicidios  en  México, pero ha sido acosada y hostigada con lenguaje violento y con fines de daño sexual. cite:mx17:_la_mexic
+
+** Marco Legal
+#+LATEX: \lettrine[lines=1]{E}{n} 
+México existen diferentes tratados y leyes que buscan defender a la mujer de cualquier forma de discriminación de género. \\
+
+*Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer*
+
+Establece la obligación de los Estados Parte, para adoptar un marco jurídico de protección y prácticas para actuar eficazmente en aquellos casos en que estén en riesgo la integridad y la salud de las mujeres. \\
+
+*Convención Interamericana sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer*
+
+Establece que existe la obligación de los Estados Parte de erradicar la violencia y discriminación contra la mujer a través del acceso a la justicia en las prácticas judiciales, y garantizan, por conducto de los tribunales nacionales competentes y de otras instituciones públicas, su protección efectiva contra todo acto de discriminación. \\
+
+*Ley General de Acceso de las Mujeres a una Vida Libre de Violencia*
+
+Establece que el estado mexicanos protegerá a las mujeres de la violencia y discriminación para vivir una vida libre.
+
+#+BEGIN_QUOTE
+"*Artículo 19*.- /Los tres órdenes de gobierno, a través de los cuales se manifiesta el ejercicio del poder público, tienen la obligación de organizar el aparato gubernamental de manera tal que sean capaces de asegurar, en el ejercicio de sus funciones, el derecho de las mujeres a una vida libre de violencia./"
+#+END_QUOTE
+** Discriminación de Género en las TIC
+#+LATEX: \lettrine[lines=1]{C}{omo} 
+parte importante de la discriminación de género en las TIC podemos incluir la "mentalidad de meritocracia", la cual consideramos tan importante que le damos su propio apartado más adelante. El presente apartado se enfocará en mostrar algunas de las diferencias que existen actualmente en el campo de las TIC.
+
+En este sentido es relevante el estudio /Gender Schemas: A Cognitive Explanation of Discrimination of Women in Technology/, por Mary A. Lemons y Monica Parzinger, quienes encontraron que uno de los problemas principales con los trabajos en las TIC fueron que los roles de género no eran tradicionales, pero que esto, combinado con la dominación de los hombres en las TIC, lleva a los hombres a tratar a las mujeres como "inferiores", estereotipos que representan uno de los principales factores que evita que las mujeres se desarrollen en este tipo de ambitos:
+
+#+BEGIN_QUOTE
+"/Our results show that women in IT may have higher non-traditional gender schemas than men in IT, and greater than that of both females and males in the general population. Because non-traditional gender schemas elevate sensitivity regarding women’s rights and privileges, while traditional gender-schemas lead to more stereotyping of women, our research may also explain objectionable attitudes and behaviors leading to job dissatisfaction and frustration at work. Because men dominate IT, male values create the standard (androcentrism). Females entering this arena may be viewed as a deviation and inferior, causing dissatisfaction for IT women/." cite:Lemons2007
+#+END_QUOTE
+
+En este sentido consideramos relevante también el citar el trabajo /Inclusion of Gender Perspective in Design and IT Environments/, de Ana M. González Ramos y Teresa Rojas-Rojas, sobre los problemas que genera para crear una perspectiva de genero el trabajar en un espacio dominado por hombres. Además de los diferentes tipos de discriminación que puede enfrentar una mujer en este tipo de espacios, como diferencias de salarios, peores puestos de trabajo, políticas de tiempo extra, acoso, discriminación, entre otros.
+
+#+BEGIN_QUOTE
+"/Male dominated environments negatively influence on women choices and reinforce the adoption of mainstream culture in which the inclusion of gender perspective faces serious problem. The experience of women is modelled in these environments by community patterns and behaviors. Many of them are invisible for both men and women professionals./"
+... \\
+"/Regarding pay gap, for example, indirect discrimination occurs when same salary is received by every worker into a labor category but, interestingly, women hold the lowest and worst paid categories in the company. Another example of indirect discrimination is total availability policy or attendance of important meetings after time-work. Harassment includes verbal abuse, suggestive remarks and unwanted physical contact. Misconduct may cause posterior bullying if stalker has a power position with respect to his/her victim. Finally, women are victimized because try to complain or take action about sex discrimination what reinforce gender fatigue/."
+cite:Ramos:2016:IGP:2998626.2998633
+#+END_QUOTE
+
+Es también relevante en este caso, tomar en cuenta no sólo la discriminación que enfrentan las mujeres en el espacio de trabajo con sus compañeros, sino la poca flexibilidad que muestran las compañías para apoyarlas en sus responsabilidades familiares y en encontrar un balance entre su vida y su trabajo, como lo muestra el estudio /Women in technology, working time, life time/, de Ana M. González Ramos y Laura LamollaKristiansen, quienes encontraron en este estudio que la vida familiar representa un rol mayor en la vida de las mujeres, en comparación con el de los hombres:
+
+#+BEGIN_QUOTE
+"/There is not sex significative differences regarding number of hours working in this sector, temporary work and time-part work rates. But men and women working in part-time differently explain their position, 33.5% of women and only 4.5% of men justify part-time as a result of family responsibilities. This data supports scholars’ statements regarding difficulties of women on work-life balance pursuing higher professional aspirations./" \\
+... \\
+"/This work show data on difficulties of women working in technology sectors related to long hours. Findings also reflect influences of work-life balance of women with and without children and their cohorts. Women working in technology are highly focus on professional career, although senior women are more aware about work-life balance. These results suggest that organisation should adapt working conditions to diverse profiles of workforce in technology sector/." cite:Ramos:2018:WTW:3233824.3233867
+#+END_QUOTE
+
+Si bien todos estos problemas son causados por diferentes razones, por lo que se tiene que tomar un enfoque multidimensional para solucionarlos, consideramos que uno de los principales problemas que enfrentan las TIC es la mentalidad de meritocracia, la cual exponemos con mayor detalle en el siguiente apartado, para entender cómo, aún en situaciones donde en apariencia no existe ningún tipo de discriminación, en realidad hay un gran problema oculto. 
 
 ** La Mentalidad de Meritocracia 
-Otra cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos de TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
+#+LATEX: \lettrine[lines=1]{O}{tra} 
+cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos del campo de las TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
 
  La Real Academia Española define la palabra meritocracia como un /sistema de gobierno en que los puestos de responsabilidad se adjudican en función de los méritos personales./  cite:RAE-meritocracia
 
@@ -80,7 +142,8 @@ Una de los áreas donde la meritocracia es vista de forma positiva es en el mund
 La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. Pero, pasaremos a explicar porque la meritocracia debe dejar de considerarse como una forma valida de desarrollo, especialmente por parte de los proyectos de TIC.
 
 *** Problema de la meritocracia
-La idea de la meritocracia si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva forma de pensar.
+#+LATEX: \lettrine[lines=1]{L}{a} 
+idea de la meritocracia si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva forma de pensar.
 
 La meritocracia puede parecer de primer momento como la forma más justa de gobernar, despues de todo, aquellos que tienen el merito con esfuerzo, trabajo y estudios, son a los que se les da la oportunidad, ya sea en el gobierno o en la industria privada.
 
@@ -96,7 +159,7 @@ Pero es también importante ilustrar nuestro argumento con lo expuesto por, Mich
 En su libro, expone que la inteligencia es, al igual que la fortuna o nacer en una familia acomodada, una especie de "lotería" genetica, donde sólo unos pocos van a poder tener accesso a los beneficios de la meritocriacia, mientras los demás vivirán apenas con lo necesario:
 
 #+BEGIN_QUOTE
-/Una sociedad en la que se implementara una lotería que asignara al 10% de los recién nacidos recursos suficientes para vivir una vida plena, entregando al restante 90% recursos tan mínimos que apenas garantizaran la supervivencia, sería una sociedad con perfecta igualdad de oportunidades. Nadie tendría más probabilidad que el resto de vivir una vida plena. No habría espacio para privilegios heredados. Sería, sin embargo, una sociedad difícil calificar de justa/.
+"/Una sociedad en la que se implementara una lotería que asignara al 10% de los recién nacidos recursos suficientes para vivir una vida plena, entregando al restante 90% recursos tan mínimos que apenas garantizaran la supervivencia, sería una sociedad con perfecta igualdad de oportunidades. Nadie tendría más probabilidad que el resto de vivir una vida plena. No habría espacio para privilegios heredados. Sería, sin embargo, una sociedad difícil calificar de justa/."
 #+END_QUOTE
  
 
@@ -108,7 +171,8 @@ Cuando escuchamos las voces de solo un grupo de personas, en este caso la person
 
 
 *** Problema de la meritocracia en las TIC
-Como ya vimos, el problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología donde prevalece la meritocracia es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+#+LATEX: \lettrine[lines=1]{C}{omo} 
+ya vimos, el problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología donde prevalece la meritocracia es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
 
 Las tecnologías de Internet, Informatica y Telecomunicaciones fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de las TIC fue principalmente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA; y en una menor medida en personas de otros países, siendo el denominador común que fue las TIC fueron desarrolladas por hombres de clase media alta. cite:wikipedia:internet
 
@@ -121,36 +185,39 @@ Mucho menos fue pensada para proteger a periodistas, activistas y delatadores, p
 De la misma forma, la participación de las mujeres, o de personas  las comunidades que tienen un sexo, una orientación sexual o un género no aceptados por la heteronorma y el binarismo tradicionales: Lesbianas, Gay, Bisexuales, Transexuales, Intersexuales, Queer y Asexuales (LGBTIQA), así como de las personas marginadas o en situaciones de vulnerabilidad, nunca fue considerada como una parte importante o relevante en el desarrollo de las TIC, y hoy en día vemos los resultados, donde las mujeres o las personas de la comunidad LGBTIQA tienen una mínima participación, en comparación con los hombres, especialmente con hombres de clase media-alta. cite:wikipedia:lgbt
 
 
-En este sentido, algunos grupos dentro de las TIC han decidido tomar un camino diferente, luchando contra el mito de la democracia, el cual "deshumaniza", pues en vez de llevarnos a vernos como humanos dialogando con otros seres humanos, nos invita a ser jueces, que solo aceptan y valoran la opinión de aquellos que consideramos "utiles", el utilitarismo de la meritocracia lleva a ver a las personas como meras herramientas para un "bien mayor". cite:EhmkeThe-dehumanizing
+En este sentido, algunos grupos dentro del campo de las TIC han decidido tomar un camino diferente, luchando contra el mito de la democracia, el cual "deshumaniza", pues en vez de llevarnos a vernos como humanos dialogando con otros seres humanos, nos invita a ser jueces, que solo aceptan y valoran la opinión de aquellos que consideramos "utiles", el utilitarismo de la meritocracia lleva a ver a las personas como meras herramientas para un "bien mayor". cite:EhmkeThe-dehumanizing
 
-Entre los movimientos que han surgido dentro de las TIC para luchar contra la meritocracia podemos destacar el "El Manifiesto Pos-Meritocracia", que ha sido firmado por una gran cantidad de profesionales de la industria del software, [fn:3] el cual busca en sus propias palabras:
+Entre los movimientos que han surgido dentro del campo de las TIC para luchar contra la meritocracia podemos destacar el "El Manifiesto Pos-Meritocracia", que ha sido firmado por una gran cantidad de profesionales de la industria del software, [fn:3] el cual busca en sus propias palabras:
 
 #+BEGIN_QUOTE
-/Es hora de que nosotros, como industria, abandonemos la noción de que el mérito es algo que se puede medir, que cada individuo puede perseguir en términos iguales y que siempre puede distribuirse justamente./
+"/Es hora de que nosotros, como industria, abandonemos la noción de que el mérito es algo que se puede medir, que cada individuo puede perseguir en términos iguales y que siempre puede distribuirse justamente./"
 
-/¿Cómo se ve un mundo pos-meritocracia? Se basa en un conjunto básico de valores y principios, una afirmación de pertenencia que se aplica a todos los que se dedican a la práctica del desarrollo de software./ cite:post-meritocracy
+"/¿Cómo se ve un mundo pos-meritocracia? Se basa en un conjunto básico de valores y principios, una afirmación de pertenencia que se aplica a todos los que se dedican a la práctica del desarrollo de software./" cite:post-meritocracy
 #+END_QUOTE
-
+#+LATEX: \newpage
 * Instrumentos
-** Diagnostico de Situación
-** Plan de Acción 
-* Areas
-** Código de Conducta
-** Programa de Equidad de Genero
-** Monitoreo de Genero
-** Medidas de Acción Positiva
-** Consejo de Equidad de Genero
-** Mujeres en la Toma de Decisiones
-** Prevención de Acoso y Hostigamiento
-**  Prevención de Violencia de Género 
-** Mentorías
-** Políticas de Uso de Lenguaje
-** Inclusión Colectiva
-** Alfabetización Digital
-
+** Planeación
+*** Diagnostico de Situación
+*** Plan de Acción 
+*** Código de Conducta
+https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
+*** Políticas de Uso de Lenguaje
+** Prevención
+*** Programa de Equidad de Genero
+*** Prevención de Acoso y Hostigamiento
+*** Prevención de Violencia de Género 
+** Monitoreo
+*** Consejo de Equidad de Genero
+*** Inclusión Colectiva
+*** Monitoreo de Genero
+** Acciones
+*** Medidas de Acción Positiva
+*** Mujeres en la Toma de Decisiones
+*** Mentorías
+*** Alfabetización Digital
+#+LATEX: \newpage
 * Referencias
 bibliographystyle:unsrt
-
 bibliography:referencias.bib
 
 * Footnotes
