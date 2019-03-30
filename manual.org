@@ -234,8 +234,45 @@ Entre los movimientos que han surgido dentro del campo de las TIC para luchar co
 "/¿Cómo se ve un mundo pos-meritocracia? Se basa en un conjunto básico de valores y principios, una afirmación de pertenencia que se aplica a todos los que se dedican a la práctica del desarrollo de software./" cite:post-meritocracy
 #+END_QUOTE
 
+** Panorama internacional
+#+LATEX: \lettrine[lines=1]{A}{} 
+nivel mundial se han observado grandes avances hacia la igualdad entre los géneros y las protecciones contra la violencia en la sociedad, la comunidad y la familia. Asimismo, las Naciones Unidas y algunos Estados han afirmado la obligación estatal de garantizar la protección efectiva para todas las personas frente a la discriminación basada en la orientación sexual o la identidad de género. cite:princ_yogyak
 
+Sin embargo, la respuesta internacional a las violaciones de derechos humanos basadas en la orientación sexual y la identidad de género ha sido fragmentada e inconsistente. Somos conscientes de que el esfuerzo es de los Estados pero también de las empresas, familias, escuelas y comunidades como instituciones socializadoras. 
 
+En ese tenor, el Codigo Europeo de Mejores Prácitas para Mujeres y TIC nos dice que cite:europ_code_best_pract_women_ict:
+#+BEGIN_QUOTE
+"/1. El número de jóvenes que estudian y eligen carreras en las TIC no está al día con la creciente demanda./ 
+/2. Se predice una importante brecha de habilidades en el sector y la escasez afectará a todas las partes del mundo./
+/3. La escasez de personal calificado en el sector de las TIC debilitará gravemente a toda la economía./
+/4. El personal calificado de las TIC, ya sea que trabaje en el sector de las TIC o en otros sectores, a menudo se desvía de sus áreas de especialización hacia otras actividades./
+/5. Las mujeres y algunas otras identidades de género están subrepresentadas en todos los niveles en el sector de las TIC./
+/6. Las mujeres están especialmente subrepresentadas en los puestos de decisión en el sector de las TIC./
+/7. Alentar con éxito a las mujeres a ingresar y permanecer en el sector podría ser una parte importante de la solución para la brecha de habilidades./"
+#+END_QUOTE
+
+Un Manual de Buenas Prácticas con Perspectiva de género en las TIC es un paso necesario, a efecto de superar la brecha de habilidades y simultáneamente proveer el acceso a las áreas de ciencia, tecnología, ingeniería y matemáticas a personas de cualesquier condición e identidad de género.
+
+ No solo para garantizar que más personas de distintas identidades de género elijan carreras en el sector, sino también a que se las aliente y apoye para que permanezcan y progresen en su área de trabajo elegida. 
+
+** Glosario
+Algunos conceptos ilustrativos sobre género y discriminación:
+
+*Género*.- atributo de los individuos, como una relación interpersonal y como un modo de organización social. cite:instituto:_estud
+
+*Representaciones sociales de género*.- son el conjunto de conceptos que una persona tiene sobre el mundo, son el proceso mediante el cual internalizamos las cosas abstractas y concretas que hay en el mundo. cite:instituto:_estud
+
+*Identidad de género*.-  se refiere a la vivencia interna e individual del género tal como cada persona la siente profundamente, la cual podría corresponder o no con el sexo asignado al momento del nacimiento, incluyendo la vivencia personal del cuerpo (que podría involucrar la modificación de la apariencia o la función corporal a través de medios médicos, quirúrgicos o de otra índole, siempre que la misma sea libremente escogida) y otras expresiones de género, incluyendo la vestimenta, el modo de hablar y los modales. cite:princ_yogyak
+
+*Orientación sexual*.- se refiere a la capacidad de cada persona de sentir una profunda atracción emocional, afectiva y sexual por personas de un género diferente al suyo, o de su mismo género, o de más de un género, así como a la capacidad mantener relaciones íntimas y sexuales con estas personas.cite:princ_yogyak 
+
+*Discriminación*.- práctica cotidiana que consiste en dar un trato desfavorable o de desprecio inmerecido a determinada persona o grupo, que a veces no percibimos, pero que en algún momento la hemos causado o recibido. Para efectos jurídicos, ocurre cuando hay una conducta que demuestre distinción, exclusión o restricción, a causa de alguna característica propia de la persona que tenga como consecuencia anular o impedir el ejercicio de un derecho. cite:instituto:_estud
+
+*Desigualdad y discriminación*.- condición o situación del no reconocimiento de la equiparación de los mismos derechos y obligaciones en el seno de la vida pública y privada en las sociedades. cite:instituto:_estud
+
+*Empoderamiento*.- proceso por medio del cual las personas transitan de cualquier situación de opresión, desigualdad, discriminación, explotación o exclusión a un estadio de conciencia, autodeterminación y autonomía, el cual se manifiesta en el ejercicio del poder democrático que emana del goce pleno de sus derechos y libertades. cite:instituto:_estud
+
+*Perspectiva de género*.-  la metodología y los mecanismos que permiten identificar, cuestionar y valorar la discriminación, desigualdad y exclusión de las mujeres, que se pretende justificar con base en las diferencias biológicas entre mujeres y hombres, así como las acciones que deben emprenderse para actuar sobre los factores de género y crear las condiciones de cambio que permitan avanzar en la construcción de la igualdad de género. Sirve la perspectiva de género para mirar o analizar alguna situación desde la perspectiva de género permite entender que la vida de mujeres y hombres puede modificarse en la medida en que no está “naturalmente” determinada. cite:conavim:_que 
 
 #+LATEX: \newpage
 #+LATEX: \pagecolor{page-color}\afterpage{\nopagecolor}
@@ -250,12 +287,89 @@ Entre los movimientos que han surgido dentro del campo de las TIC para luchar co
 * INSTRUMENTOS
 ** Planeación
 *** Diagnostico de Situación
+El reto de desarrollar un modelo social basado en la igualdad debe ir aparejado con los esfuerzos concretos por extender el acceso y uso de las TIC a todas las personas, como estrategia de democratización de la información de la comunicación y de la participación de las mujeres y otras identidades de género en la generación del conocimiento. 
+Las TIC permiten a las mujeres formar parte activa de redes de desarrollo, de apoyo y divulgación. A su vez, posibilitan el acceso a nuevos trabajos y profesiones, la participación en iniciativas de aprendizaje interactivo, teleformación y acceso a conocimientos e información para mejorar sus vidas. Las TIC también facilitan que las mujeres ocupen el espacio público en la sociedad de la información creando recursos, aportando ideas y opiniones, haciendo valer su ingenio y creatividad. cite:andina:_las_tic
+El aislamiento y la fragmentación son grandes debilidades para aquellas personas comprometidas con la equidad de género. El acceso de todas las personas, incluyendo a las mujeres al conocimiento y a las TIC son esfuerzos insustituibles para quienes aspiran a contribuir a superar los problemas causados por la designaldad de género. Para las minorías (entre otras, las mujeres), este acceso es decisivo para cambiar sus vidas, que sean dueñas de sus decisiones y partícipes del desarrollo en su comunidad y país.
+
+*Necesidades*: cite:franco:_la_tic
++ Aún hacen faltan iniciativas que procuren la incorporación y permanencia dinámica de la mujer en el negocio de las tecnologías en todos los niveles. 
++ Visibilizar la participación femenina, en la industria de las tecnologías, focalizando el trabajo en estos ámbitos. 
++ Fomentar el ingreso de la mayor cantidad de personas con la mayor diversidad de identidades de género y circunstancias, capacitándolas, potenciándolas, generando los conocimientos necesarios y buscando oportunidades de mejoramiento laboral, legal y profesional, para que la participación de género en esta industria sea cada día más fuerte y de mayor relevancia.
++ Inspirar tanto a las nuevas generaciones como a los profesionales activos, para que, a través de experiencias de modelos de participación exitosa de otras personas con diversas identidades de género, se atrevan a tomar oportunidades en todos los niveles posibles, en las empresas, en la investigación, profesionistas independientes, etc. 
+
+Para empoderar a todas las personas en la utilización de las TIC y en especial para la participación en su desarrollo, se requiere una toma de conciencia, del poder que estas herramientas ofrecen a nivel tanto personal como profesional. 
+La inclusión de la mujer en las TIC puede hacer una enorme diferencia en la disminución de la brecha digital que separa a México de países desarrollados, debido a que cuando una mujer se educa se convierte en una replicadora natural hacia su entorno inmediato.
+Focalizando la incorporación de las TIC en la vida de todas las personas, en especial de las madres y las mujeres de sectores vulnerables, daremos un paso gigante hacia el desarrollo. Las TIC, a diferencia de muchas otras tecnologías, tienen el poder de la transversalidad y de ser una herramienta poderosa tanto para la capacitación como para la gestión en todo orden de actividades.
+
 *** Plan de Acción 
-*** Código de Conducta
-https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
+Un Plan de Acción es un documento estratégico dirigido a posicionar favorablemente a una empresa u organización en materia de igualdad de género. Ha de responder a los resultados del diagnóstico previamente realizado, y que permitirá: cite:mujeres:_guía_de_buenas_pract_para
+
++ Corregir desigualdades, desequilibrios o discriminaciones respecto a la presencia de mujeres y hombres en la empresa.
++ Cubrir las necesidades del personal que se hayan identificado equilibrando la participación de mujeres y hombres en las prácticas de gestión de recursos humanos.
++ Facilitar una adecuada gestión de los recursos humanos atendiendo tanto a las necesidades del personal como a las de la actividad empresarial.
++ Introducir mecanismos para que la igualdad de oportunidades entre mujeres y hombres se incluya como principio básico de la organización.
+
+El Plan de Acción como instrumento de intervención posibilita a una empresa u organización dirigir sus pasos hacia una finalidad concreta: ser una entidad comprometida con la igualdad de oportunidades entre mujeres y hombres, lo que supone corregir los desequilibrios existentes y evitar que estos produzcan desigualdad y discriminación por razón de género afectando a los resultados de la empresa u organización.
+
+
+Se trata, en consecuencia, de una estrategia dirigida a optimizar la gestión de los recursos humanos y, por tanto, a facilitar, apoyar y reforzar la actividad de la empresa u organización.
+
+Ejes:\\
+1.- Mentoring y coaching: Ejecutivas de nivel dirección fungen como guía del talento femenino con proyección de crecimiento.\\
+2.- Prácticas de contratación y evaluación del talento por medio de paneles. Se realiza una sesión donde varios ejecutivos evalúan, al mismo tiempo, las competencias del talento.\\
+3.- Instauración de Consejos de Equidad: Ejecutivos de diferentes áreas y niveles se reúnen para generar iniciativas de diversidad en la empresa.\\
+4.- Apoyo para madres, padres y cuidadores de familia, que contribuirá al balance de vida y carrera de ambos géneros (tiempo flexible, políticas de maternidad/paternidad, trabajo desde casa).\\
+
+*** Código de Práctias
+El objetivo de estas prácticas es garantizar que las mujeres jóvenes que eligieron estudios relacionados con las TIC sean de hecho reclutadas en el sector o en puestos de TIC especializados en otros sectores y luego permanezcan en el sector de las TIC o en el trabajo relacionado con las TIC.
+
+Alentar a las jóvenes estudiantes universitarias que han optado por los estudios relacionados con las TIC para que continúen en el campo elegido. Los principales objetivos aquí son continuar luchando contra los estereotipos y presentar oportunidades de carrera atractivas en el sector.
+
+Organizar jornadas informativas en las que se presenten modelos de roles femeninos actuando como embajadoras del sector, en una palabra: hacer visibles a las mujeres en el ámbito de las TIC como estudiantes1 y como profesionistas. 
+
+Mostrar que es posible que las mujeres tengan una carrera exitosa en el sector de las TIC sin abandonar su papel como mujeres o sus vidas privadas y familiares;
+
+Programas de financiamiento dirigidos a mujeres graduadas que les brindan la oportunidad de obtener un doctorado en campos de ciencia y tecnología relacionados con las TIC.
+
+Establecer pasantías en empresas de TIC, incluidos programas de capacitación breves, como pasantías en laboratorios de empresas y seminarios sobre habilidades de TIC duras y blandas.
+
+Recopilar y analizar estadísticas relevantes y los resultados de investiges relevantes para el género. Establecer sistemas para recopilar información sobre necesidades y problemas.
+
+Configurar procesos para monitorear cualquier inconsistencia en las políticas y procedimientos de la compañía. Desarrollar planes y alentar a las empleadas a expresar sus aspiraciones de carrera a medio y largo plazo. Dar visibilidad al desempeño y habilidades de las mujeres.
+
+Seminarios de diseño específicamente para mujeres, sesiones de información, para habilidades técnicas y de software.  Presentar programas de mentoría para mujeres, capacitación dirigida a familiarizar y alentar a las mujeres a adquirir habilidades de liderazgo y desarrollar planes y aspiraciones profesionales de mediano a largo plazo.
+
+Usar la gestión del desempeño para evaluar y promover a las mujeres.
+
 *** Políticas de Uso de Lenguaje
+De conformidad con la "Guía para el uso del lenguaje inclusivo desde un enfoque de derechos humanos y perspectiva de género” una de las formas más sutiles de discriminación hacia las mujeres es a través del lenguaje, ya que éste no es más que el reflejo de los valores, el pensamiento y la sociedad que lo crea, lo “normaliza” y utiliza. De aquí la necesidad y urgencia de fomentar el uso de un lenguaje incluyente para todas las personas, así como pautas para una comunicación respetuosa.
+
+#+BEGIN_QUOTE
+/•Utilizar el término correcto e inclusivo para referirse a la población de la que se habla, utilizando genéricos universales. • Una forma de evitar la discriminación es nombrar en plural, anteponiendo la palabra “personas”. • El lenguaje inclusivo ayuda a visibilizar a aquellas personas, grupos y comunidades históricamente discriminadas • Las expresiones sexistas se refieren a palabras que utilizan, generalmente hombres, para referirse a mujeres con las que no hay un acuerdo para llamarlas de ese modo. Estas expresiones implican acoso cuando la mujer no está de acuerdo en que se le llame así. • La expresión inclusiva es llamarlas por su nombre, o en su caso, utilizar palabras que propicien igualdad y respeto. • Utilizar “las” y “los” para incluir a ambos sexos. Es importante cuidar que el último pronombre concuerde con el sustantivo. • Se pueden utilizar pronombres cuando no se conoce específicamente a las personas de las que se hace referencia. • Utilizar diminutivos para referirse a las personas las coloca en una posición de inferioridad haciendo referencia a una falta de autonomía e independencia, específicamente en cuanto a las decisiones sobre su vida, por lo que se deben utilizar los términos adecuados y no discriminatorios que aquí se mencionan./ cite:dif-cdmx:_guia
+ #+END_QUOTE
+
+Por otra parte, de acuerdo con el “The Contributor Covenant Code of Conduct”, dene ser considerados comportamientos inaceptables:
+
+#+BEGIN_QUOTE
+/a) El uso de lenguaje o imágenes sexualizadas y atención sexual indeseable./
+/b) Trolling, comentarios insultantes/despectivos, y ataques a nivel personal o políticos./
+/c) Hostigamiento público o privado./
+/d) Publicación de información privada de otros, como física o electrónica sin autorización previa y expresa./
+/e) Otra conducta que razonablemente podría considerarse inapropiada en un ambiente profesional./ cite:ehmke:_contr_coven_code_conduc
+#+END_QUOTE
+ 
 ** Prevención
 *** Programa de Equidad de Genero
+El Programa Equidad de Género, consiste en dar a conocer la igualdad que debe hacer entre todas las personas, sin importar su sexo o identidad de género.
+Propósito: crear un ambiente igualitario dentro de la organización, contribuyendo así a mantener una sociedad igualitaria. \\
+*Objetivos*\\
+Implantar la Perspectiva de Género en la organización, tomando en cuenta la coordinación, integración y transversalización, para fomentar los procesos hacia la igualdad sustantiva entre todas las personas; que hagan posible una modificación positiva en el comportamiento de las personas que integran esta organización.\\
+Promover acciones tendientes a mejorar las condiciones de vida de sus integrantes e implementar lineamientos que permitan procurar la igualdad de condiciones y de trato entre los géneros.\\
+*Misión*\\
+Promover una cultura de igualdad, inclusión, respeto y no violencia que asegure la formación integral de los integrantes de la organización, a través de la implementación de las políticas, código de mejores prácticas y lineamientos de la organización, así como la creación de proyectos transversales aplicados en sus actividades.\\
+*Visión*\\
+Ser reconocida como una organización con perspectiva de género a la vanguardia y el desarrollo de acciones y gestión encaminadas a fomentar la igualdad entre mujeres y hombres.\\
+
 *** Prevención de Acoso y Hostigamiento
 *** Prevención de Violencia de Género 
 ** Monitoreo
@@ -296,7 +410,6 @@ De acuerdo con el Diagnóstico de autoevaluación de la Norma Mexicana NMX-R-025
 
 De forma similar, las TIC pueden implementar este tipo de mecanismos, para asegurar que las mujeres tengan una participación equitativa en los puestos de liderazgo y que se rompan con los estereotipos en los que los hombres son los que suelen mandar en este sector.
 
-*** Mentorías
 *** Alfabetización Digital
 Es importante entender que aún las mujeres que no han estudiado o laborado en el ambito de las TIC, también pueden estar interesadas en acercarse, especialmente si trabajan dentro de una empresa cuyo principal giro son las TIC, aún cuando se encuetren en otro tipo de puestos, como la contabilidad o la publicidad.
 
@@ -309,7 +422,7 @@ Lo cual es contemplado en el Diagnóstico de autoevaluación de la Norma Mexican
 #+BEGIN_QUOTE
 "/Que se cuente con procesos transparentes y accesibles libres de sesgos sexistas o discriminatorios./ \\
 /Que considere a todo el personal que labora en el centro de trabajo sin importar los niveles de responsabilidad. \\
-Que se cuente con mecanismos transparentes, incluyentes y con perspectiva de género, para el acceso a la formación, capacitación, adiestramie nto y del personal durante la jornada de trabajo/ cite:diagn_norma_mexic_nmx_r
+Que se cuente con mecanismos transparentes, incluyentes y con perspectiva de género, para el acceso a la formación, capacitación, adiestramie nto y del personal durante la jornada de trabajo/. cite:diagn_norma_mexic_nmx_r
  #+END_QUOTE
 
 #+LATEX: \newpage
@@ -324,4 +437,6 @@ bibliography:referencias.bib
 [fn:2] Un ejemplo para ilustrar este punto lo encontramos claramante en la Corporación de Internet para la Asignación de Nombres y Números (ICANN), la cual funciona como una corporación en los Estados Unidos, pese a la globalidad de Internet y a la importancia del sistema de nombres de dominio. Para mayor analisis se puede consultar Wikipedia: [Corporación de Internet para la Asignación de Nombres y Números. (2018, 28 de noviembre). Wikipedia, La enciclopedia libre. Fecha de consulta: 00:08, marzo 28, 2019 desde https://es.wikipedia.org/w/index.php?title=Corporaci%C3%B3n_de_Internet_para_la_Asignaci%C3%B3n_de_Nombres_y_N%C3%BAmeros&oldid=112333685 ]
 
 [fn:3] Curiosamente, entre sus firmates se encuentra Patricia Torvalds, hija de Linus Torlavds, quien creó el kernel Linux y que junto con este proyecto, ha sido uno de los principales estandartes de los defensores de la meritocracia dentro de las TIC.
+
+ 
 
