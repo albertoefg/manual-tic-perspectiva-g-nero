@@ -53,6 +53,17 @@
 #+LATEX: \pagecolor{white1}
 #+LATEX:  \pagenumbering{roman}
 #+TOC: headlines 2 
+
+#+LATEX: \newpage
+#+LATEX: \pagecolor{page-color}\afterpage{\nopagecolor}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{9cm}
+#+LATEX: \begin{center}
+#+LATEX: {\fontsize{30pt}{30pt}\selectfont {\color{white1}\textbf{INTRODUCCIÓN}}}
+#+LATEX: \end{center}
+#+LATEX: \mbox{}
+
+
 #+LATEX: \newpage
 #+LATEX:  \pagenumbering{arabic}
 
@@ -192,7 +203,20 @@ Entre los movimientos que han surgido dentro del campo de las TIC para luchar co
 
 "/¿Cómo se ve un mundo pos-meritocracia? Se basa en un conjunto básico de valores y principios, una afirmación de pertenencia que se aplica a todos los que se dedican a la práctica del desarrollo de software./" cite:post-meritocracy
 #+END_QUOTE
+
+
+
+
 #+LATEX: \newpage
+#+LATEX: \pagecolor{page-color}\afterpage{\nopagecolor}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{9cm}
+#+LATEX: \begin{center}
+#+LATEX: {\fontsize{30pt}{30pt}\selectfont {\color{white1}\textbf{INSTRUMENTOS}}}
+#+LATEX: \end{center}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
 * Instrumentos
 ** Planeación
 *** Diagnostico de Situación
