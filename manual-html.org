@@ -60,16 +60,14 @@
 
 * Introducción
 ** Discriminación de Género en México
-#+LATEX: \lettrine[lines=1]{L}{a} 
-violencia contra la mujer es un tema cada vez mas grave en nuestro país, el cual ha sido tratado muy poco en el contexto digital. Con la llegada de internet y la sociedad de la información, los patrones de violencia machista lejos de disminuir, se han agravado con el uso de las nuevas tecnologías, ya que estas permiten el anonimato en linea, lo cual puede crear un  canal para  la  expresión  crítica  que  otros  medios  de  comunicación  masiva  no  permiten, pero  también  puede  ser  utilizado  como  un  medio  de  actividades  criminales, represión, extorsión y violencia. cite:universidad18:_estud_repres
+La violencia contra la mujer es un tema cada vez mas grave en nuestro país, el cual ha sido tratado muy poco en el contexto digital. Con la llegada de internet y la sociedad de la información, los patrones de violencia machista lejos de disminuir, se han agravado con el uso de las nuevas tecnologías, ya que estas permiten el anonimato en linea, lo cual puede crear un  canal para  la  expresión  crítica  que  otros  medios  de  comunicación  masiva  no  permiten, pero  también  puede  ser  utilizado  como  un  medio  de  actividades  criminales, represión, extorsión y violencia. cite:universidad18:_estud_repres
 
 Es importante exponer que en la actualidad existen tres mujeres cuyos casos son una muestra de violencia digital contra la mujer por parte del Estado Mexicano: Carmen Aristegui, Stephanie Brewer y Karla Micheel Salas; las tres recibieron un malware de espionaje conocido como /Pegasus/, presuntamente atacadas por el Gobierno Federal, y cuyos casos no fueron investigados adecuadamente por la Procuraduría General de la República, y actualmente el caso de Stephanie Brewer se encuentra bajo estudio por la Comisión Interamericana de Derechos Humanos. cite:mx17:_la_mexic,libertad17:_comun_r96
 
 Lo cual cobra especial relevancia en caso de una mujer, ya que la violencia de genero se encuentra latente en las redes sociales, existiendo casos tristes y notorios, como el caso de la periodista Frida Guerrera, quien usa las redes sociales como una herramienta para difundir  su  trabajo  periodístico  sobre  feminicidios  en  México, pero ha sido acosada y hostigada con lenguaje violento y con fines de daño sexual. cite:mx17:_la_mexic
 
 ** Marco Legal
-#+LATEX: \lettrine[lines=1]{E}{n} 
-México existen diferentes tratados y leyes que buscan defender a la mujer de cualquier forma de discriminación de género. \\
+En México existen diferentes tratados y leyes que buscan defender a la mujer de cualquier forma de discriminación de género. \\
 
 *Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer*
 
@@ -87,8 +85,7 @@ Establece que el estado mexicanos protegerá a las mujeres de la violencia y dis
 "*Artículo 19*.- /Los tres órdenes de gobierno, a través de los cuales se manifiesta el ejercicio del poder público, tienen la obligación de organizar el aparato gubernamental de manera tal que sean capaces de asegurar, en el ejercicio de sus funciones, el derecho de las mujeres a una vida libre de violencia./"
 #+END_QUOTE
 ** Discriminación de Género en las TIC
-#+LATEX: \lettrine[lines=1]{C}{omo} 
-parte importante de la discriminación de género en las TIC podemos incluir la "mentalidad de meritocracia", la cual consideramos tan importante que le damos su propio apartado más adelante. El presente apartado se enfocará en mostrar algunas de las diferencias que existen actualmente en el campo de las TIC.
+Como parte importante de la discriminación de género en las TIC podemos incluir la "mentalidad de meritocracia", la cual consideramos tan importante que le damos su propio apartado más adelante. El presente apartado se enfocará en mostrar algunas de las diferencias que existen actualmente en el campo de las TIC.
 
 En este sentido es relevante el estudio /Gender Schemas: A Cognitive Explanation of Discrimination of Women in Technology/, por Mary A. Lemons y Monica Parzinger, quienes encontraron que uno de los problemas principales con los trabajos en las TIC fueron que los roles de género no eran tradicionales, pero que esto, combinado con la dominación de los hombres en las TIC, lleva a los hombres a tratar a las mujeres como "inferiores", estereotipos que representan uno de los principales factores que evita que las mujeres se desarrollen en este tipo de ambitos:
 
@@ -116,8 +113,7 @@ Es también relevante en este caso, tomar en cuenta no sólo la discriminación 
 Si bien todos estos problemas son causados por diferentes razones, por lo que se tiene que tomar un enfoque multidimensional para solucionarlos, consideramos que uno de los principales problemas que enfrentan las TIC es la mentalidad de meritocracia, la cual exponemos con mayor detalle en el siguiente apartado, para entender cómo, aún en situaciones donde en apariencia no existe ningún tipo de discriminación, en realidad hay un gran problema oculto. 
 
 ** La Mentalidad de Meritocracia 
-#+LATEX: \lettrine[lines=1]{O}{tra} 
-cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos del campo de las TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
+Otra cuestion importante que debemos analizar para entender la situación y los retos que enfrentan los proyectos del campo de las TIC en la  actualidad, es la cultura de meritocracia. La cual, como se expondrá más adelante, es una cultura que benefica a aquellos que tienen privilegios, perjudicando a las personas en situaciones de vulnerabilidad, marginación o discriminación. 
 
  La Real Academia Española define la palabra meritocracia como un /sistema de gobierno en que los puestos de responsabilidad se adjudican en función de los méritos personales./  cite:RAE-meritocracia
 
@@ -142,8 +138,7 @@ Una de los áreas donde la meritocracia es vista de forma positiva es en el mund
 La lectora puede pensar que esto es lo mejor y más lógico, después de todo las personas más inteligentes o con más talento son las que desarrollan la tecnología, y por lo tanto a ellas se les debería dar la razón. Pero, pasaremos a explicar porque la meritocracia debe dejar de considerarse como una forma valida de desarrollo, especialmente por parte de los proyectos de TIC.
 
 *** Problema de la meritocracia
-#+LATEX: \lettrine[lines=1]{L}{a} 
-idea de la meritocracia si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva forma de pensar.
+La idea de la meritocracia si bien tiene cuestiones positivas, poco a poco ha ido perdiendo fuerza, y hoy en día son cada vez más los que piden que se de paso a una nueva forma de pensar.
 
 La meritocracia puede parecer de primer momento como la forma más justa de gobernar, despues de todo, aquellos que tienen el merito con esfuerzo, trabajo y estudios, son a los que se les da la oportunidad, ya sea en el gobierno o en la industria privada.
 
@@ -171,8 +166,7 @@ Cuando escuchamos las voces de solo un grupo de personas, en este caso la person
 
 
 *** Problema de la meritocracia en las TIC
-#+LATEX: \lettrine[lines=1]{C}{omo} 
-ya vimos, el problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología donde prevalece la meritocracia es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
+Como ya vimos, el problema fundamental de la meritocracia no es que se hacen mal las cosas, en muchas ocasiones la tecnología donde prevalece la meritocracia es diseñada de manera excelente, sino que este pensamiento deja fuera a personas que por diferentes razones no pueden colaborar, y cuyas voces tienen poca importancia o incluso nula.
 
 Las tecnologías de Internet, Informatica y Telecomunicaciones fueron desarrolladas principalmente en Estados Unidos, con algunas aportaciones Europeas, por universidades e instituciones gubernamentales, en una época en la que el racismo y el sexismo aún era fuerte en los Estados Unidos, especialmente en el uso de las computadoras, por lo que el desarrollo de las TIC fue principalmente por personas blancas nacidas en los Estados Unidos con educación universitaria, de escuelas de prestigio, como el MIT, Standford o UCLA; y en una menor medida en personas de otros países, siendo el denominador común que fue las TIC fueron desarrolladas por hombres de clase media alta. cite:wikipedia:internet
 
